@@ -142,4 +142,4 @@ This project is provided under a commercial license. Please refer to `license.tx
 
 ---
 
-Happy Coding! 🚀
+Happy Coding! 🚀.
