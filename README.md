@@ -1,36 +1,145 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Laravel 12x Techguru Template - Installation Guide
 
-## Getting Started
+Welcome to Laravel 12x Techguru Template! This guide will walk you through the steps required to get the project up and running on your local machine.
 
-First, run the development server:
+---
+
+## 🧰 Requirements
+
+- **PHP Version:** >= 8.2
+- **Composer Version:** >= 2.2
+- **Recommended Servers:** XAMPP, WAMP, or LAMPP
+
+---
+
+## ⚙️ Installation Steps
+
+### 1. Install a Local Server
+
+Make sure you have XAMPP/WAMP/LAMPP installed and running on your system. If your current PHP version is **greater than 8.2**, you may skip this step.
+
+---
+
+### 2. Install Composer
+
+Ensure [Composer](https://getcomposer.org/) is installed and available in your terminal. You can check this by running:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+composer --version
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Install Dependencies
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Run the following command to install all required PHP packages:
 
-## Learn More
+```bash
+composer install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Alternatively:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+composer i
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+### 4. Create Environment File
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Copy `.env.example` to `.env`:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#### On Unix/macOS:
+
+```bash
+cp .env.example .env
+```
+
+#### On Windows CMD:
+
+```cmd
+copy .env.example .env
+```
+
+---
+
+### 5. Generate Application Key
+
+Run the Artisan command to generate your app key:
+
+```bash
+php artisan key:generate
+```
+
+---
+
+### 6. Configure Database
+
+Open your `.env` file and update the following lines based on your database setup:
+
+#### For SQLite:
+```env
+DB_CONNECTION=sqlite
+```
+
+#### For MySQL:
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database_name
+DB_USERNAME=your_db_user
+DB_PASSWORD=your_db_password
+```
+
+---
+
+### 7. Run Migrations (Optional)
+
+If your project uses migrations, execute:
+
+```bash
+php artisan migrate
+```
+
+---
+
+### 8. Start Development Server
+
+To start the Laravel server:
+
+```bash
+php artisan serve
+```
+
+Access your site at: [http://localhost:8000](http://localhost:8000)
+
+Want to use a different port? Example:
+
+```bash
+php artisan serve --port=8001
+```
+
+---
+
+## ✍️ Customizing the Template
+
+Before deploying, make sure to **edit the demo content** and insert your own content.
+
+We recommend using a code editor like:
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Sublime Text](https://www.sublimetext.com/)
+
+Replace all placeholder texts, images, and settings according to your brand or use case.
+
+---
+
+## 📄 License
+
+This project is provided under a commercial license. Please refer to `license.txt` for full terms.
+
+---
+
+Happy Coding! 🚀
