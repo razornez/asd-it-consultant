@@ -6,7 +6,7 @@ use App\Http\Controllers\PagesController;
 
 
 // Home Routes
-Route::get('/', [HomeController::class, 'index'])
+Route::get('/', [HomeController::class, 'index2_one_page'])
     ->name('index');
 Route::get('/index-one-page', [HomeController::class, 'index_one_page'])
     ->name('index-one-page');
