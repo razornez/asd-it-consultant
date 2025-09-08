@@ -95,7 +95,7 @@
         </ul>
     </li>
     <li @if (request()->is(['about'])) class="current" @endif>
-        <a href="{{ route('about') }}">About</a>
+        <a href="#">About</a>
     </li>
     <li class="dropdown @if (request()->is([
             'team',
@@ -122,7 +122,7 @@
             <li><a href="{{ route('testimonials-carousel') }}">Testimonial Carousel</a></li>
             <li><a href="{{ route('pricing') }}">Pricing</a></li>
             <li><a href="{{ route('gallery') }}">Gallery</a></li>
-            <li><a href="{{ route('faq') }}">FAQs</a></li>
+            <li><a href="#">FAQs</a></li>
             <li><a href="{{ route('404') }}">404 Error</a></li>
             <li><a href="{{ route('coming-soon') }}">Coming Soon</a></li>
         </ul>
@@ -139,7 +139,7 @@
         ])) current @endif">
         <a href="#">Services</a>
         <ul class="shadow-box">
-            <li><a href="{{ route('services') }}">Services</a></li>
+            <li><a href="#">Services</a></li>
             <li><a href="{{ route('services-carousel') }}">Services Carousel</a></li>
             <li><a href="{{ route('threat-detection-prevention') }}">Threat Detection</a></li>
             <li><a href="{{ route('endpoint-device-security') }}">Device Security</a></li>
@@ -164,7 +164,7 @@
     <li class="dropdown @if (request()->is(['blog', 'blog-carousel', 'blog-list', 'blog-list-2', 'blog-details'])) current @endif">
         <a href="#">Blog</a>
         <ul class="shadow-box">
-            <li><a href="{{ route('blog') }}">Blog</a></li>
+            <li><a href="#">Blog</a></li>
             <li><a href="{{ route('blog-carousel') }}">Blog Carousel</a></li>
             <li><a href="{{ route('blog-list') }}">Blog List</a></li>
             <li><a href="{{ route('blog-list-2') }}">Blog List Two</a></li>

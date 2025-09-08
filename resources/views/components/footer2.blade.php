@@ -75,10 +75,10 @@
                         <h4 class="footer-widget__title">Pages</h4>
                         <ul class="footer-widget__quick-links-list list-unstyled">
                             <li><a href="{{ route('index') }}">Home</a></li>
-                            <li><a href="{{ route('about') }}">About Us</a></li>
-                            <li><a href="{{ route('pricing') }}">Pricing</a></li>
-                            <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
-                            <li><a href="{{ route('blog') }}">Blogs</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Blogs</a></li>
                             <li><a href="{{ route('contact') }}">Careers</a></li>
                         </ul>
                     </div>
@@ -87,12 +87,12 @@
                     <div class="footer-widget__support">
                         <h4 class="footer-widget__title">Support</h4>
                         <ul class="footer-widget__quick-links-list list-unstyled">
-                            <li><a href="{{ route('about') }}">Terms & Condition</a></li>
-                            <li><a href="{{ route('faq') }}">FAQs</a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="#">FAQs</a></li>
                             <li><a href="{{ route('contact') }}">Contact Us</a></li>
                             <li><a href="{{ route('404') }}">404 Page</a></li>
                             <li><a href="{{ route('contact') }}">Live Chat</a></li>
-                            <li><a href="{{ route('services') }}">Our Services</a></li>
+                            <li><a href="#">Our Services</a></li>
                         </ul>
                     </div>
                 </div>

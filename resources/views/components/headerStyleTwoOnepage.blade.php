@@ -14,7 +14,7 @@
                                     <i class="icon-pin"></i>
                                 </div>
                                 <div class="text">
-                                    <p>1629 N. Dixie Avenue, Kentucky, 42701</p>
+                                    <p>{{ __('home.address') }}</p>
                                 </div>
                             </li>
                             <li>
@@ -22,7 +22,7 @@
                                     <i class="icon-search-mail"></i>
                                 </div>
                                 <div class="text">
-                                    <p><a href="mailto:example@domain.com">example@domain.com</a>
+                                    <p><a href="mailto:cs@anugrahdigital.co.id">cs@anugrahdigital.co.id</a>
                                     </p>
                                 </div>
                             </li>
@@ -36,9 +36,9 @@
                             </li>
                         </ul>
                         <ul class="list-unstyled main-menu__top-menu">
-                            <li><a href="{{ route('about') }}">Help</a></li>
-                            <li><a href="{{ route('contact') }}">Support</a></li>
-                            <li><a href="{{ route('faq') }}">Faqs</a></li>
+                            <li><a href="#">{{ __('home.menu.help') }}</a></li>
+                            <li><a href="{{ route('contact') }}">{{ __('home.menu.support') }}</a></li>
+                            <li><a href="#">{{ __('home.menu.faqs') }}</a></li>
                         </ul>
                     </div>
                 </div>
@@ -55,134 +55,33 @@
                             <div class="main-menu__main-menu-box">
                                 <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                 <ul class="main-menu__list one-page-scroll-menu">
-                                    <li class="dropdown megamenu scrollToLink">
-                                        <a href="#home">Home </a>
-                                        <ul>
-                                            <li>
-
-                                                <section class="home-showcase">
-                                                    <div class="container">
-                                                        <div class="home-showcase__inner">
-                                                            <div class="row">
-                                                                <div class="col-lg-4">
-                                                                    <div class="home-showcase__item">
-                                                                        <div class="home-showcase__image">
-                                                                            <img src="{{ asset('assets/images/home-showcase/home-showcase-1-1.jpg') }}"
-                                                                                alt="">
-                                                                            <div class="home-showcase__buttons">
-                                                                                <a href="{{ route('index') }}"
-                                                                                    class="thm-btn home-showcase__buttons__item">
-                                                                                    Multi Page
-                                                                                    <span
-                                                                                        class="icon-right-arrow"></span>
-                                                                                </a>
-                                                                                <a href="{{ route('index-one-page') }}"
-                                                                                    class="thm-btn home-showcase__buttons__item">
-                                                                                    One Page
-                                                                                    <span
-                                                                                        class="icon-right-arrow"></span>
-                                                                                </a>
-                                                                            </div>
-                                                                            <!-- /.home-showcase__buttons -->
-                                                                        </div><!-- /.home-showcase__image -->
-                                                                        <h3 class="home-showcase__title">Home
-                                                                            Page
-                                                                            01</h3>
-                                                                        <!-- /.home-showcase__title -->
-                                                                    </div><!-- /.home-showcase__item -->
-                                                                </div><!-- /.col-lg-3 -->
-                                                                <div class="col-lg-4">
-                                                                    <div class="home-showcase__item">
-                                                                        <div class="home-showcase__image">
-                                                                            <img src="{{ asset('assets/images/home-showcase/home-showcase-1-2.jpg') }}"
-                                                                                alt="">
-                                                                            <div class="home-showcase__buttons">
-                                                                                <a href="{{ route('index2') }}"
-                                                                                    class="thm-btn home-showcase__buttons__item">
-                                                                                    Multi Page
-                                                                                    <span
-                                                                                        class="icon-right-arrow"></span>
-                                                                                </a>
-                                                                                <a href="{{ route('index2-one-page') }}"
-                                                                                    class="thm-btn home-showcase__buttons__item">
-                                                                                    One Page
-                                                                                    <span
-                                                                                        class="icon-right-arrow"></span>
-                                                                                </a>
-                                                                            </div>
-                                                                            <!-- /.home-showcase__buttons -->
-                                                                        </div><!-- /.home-showcase__image -->
-                                                                        <h3 class="home-showcase__title">Home
-                                                                            Page
-                                                                            02
-                                                                        </h3><!-- /.home-showcase__title -->
-                                                                    </div><!-- /.home-showcase__item -->
-                                                                </div><!-- /.col-lg-3 -->
-                                                                <div class="col-lg-4">
-                                                                    <div class="home-showcase__item">
-                                                                        <div class="home-showcase__image">
-                                                                            <img src="{{ asset('assets/images/home-showcase/home-showcase-1-3.jpg') }}"
-                                                                                alt="">
-                                                                            <div class="home-showcase__buttons">
-                                                                                <a href="{{ route('index3') }}"
-                                                                                    class="thm-btn home-showcase__buttons__item">
-                                                                                    Multi Page
-                                                                                    <span
-                                                                                        class="icon-right-arrow"></span>
-                                                                                </a>
-                                                                                <a href="{{ route('index3-one-page') }}"
-                                                                                    class="thm-btn home-showcase__buttons__item">
-                                                                                    One Page
-                                                                                    <span
-                                                                                        class="icon-right-arrow"></span>
-                                                                                </a>
-                                                                            </div>
-                                                                            <!-- /.home-showcase__buttons -->
-                                                                        </div><!-- /.home-showcase__image -->
-                                                                        <h3 class="home-showcase__title">Home
-                                                                            Page
-                                                                            03
-                                                                        </h3><!-- /.home-showcase__title -->
-                                                                    </div><!-- /.home-showcase__item -->
-                                                                </div><!-- /.col-lg-3 -->
-
-
-                                                            </div><!-- /.row -->
-                                                        </div><!-- /.home-showcase__inner -->
-
-                                                    </div><!-- /.container -->
-                                                </section>
-
-                                            </li>
-                                        </ul>
+                                    <li class="scrollToLink">
+                                        <a href="#home">{{ __('home.menu.home') }}</a>
                                     </li>
                                     <li class="scrollToLink">
-                                        <a href="#services">Services</a>
+                                        <a href="#services">{{ __('home.menu.services') }}</a>
                                     </li>
                                     <li class="scrollToLink">
-                                        <a href="#about">About</a>
+                                        <a href="#about-four">{{ __('home.menu.about') }}</a>
                                     </li>
                                     <li class="scrollToLink">
-                                        <a href="#portfolio">Portfolio</a>
+                                        <a href="#portfolio">{{ __('home.menu.portfolio') }}</a>
                                     </li>
                                     <li class="scrollToLink">
-                                        <a href="#contact">Contact</a>
+                                        <a href="#contact">{{ __('home.menu.contact') }}</a>
                                     </li>
                                     <li class="scrollToLink">
-                                        <a href="#team">Team</a>
-                                    </li>
-                                    <li class="scrollToLink">
-                                        <a href="#blog">Blog</a>
+                                        <a href="#team">{{ __('home.menu.testimoni') }}</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="main-menu__right">
-                                <div class="main-menu__search-box">
+                                <!-- <div class="main-menu__search-box">
                                     <a href="#"
                                         class="main-menu__search searcher-toggler-box icon-search-interface-symbol"></a>
-                                </div>
+                                </div> -->
                                 <div class="main-menu__btn-box">
-                                    <a href="{{ route('contact') }}" class="thm-btn">Get in Touch<span
+                                    <a href="{{ route('contact') }}" class="thm-btn">{{ __('home.menu.contact_title') }}<span
                                             class="icon-right-arrow"></span></a>
                                 </div>
                             </div>
