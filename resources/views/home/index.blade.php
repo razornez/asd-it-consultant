@@ -295,104 +295,14 @@
             <div class="section-title text-center sec-title-animation animation-style1">
                 <div class="section-title__tagline-box">
                     <div class="section-title__tagline-shape-1"></div>
-                    <span class="section-title__tagline">Our Services</span>
+                    <span class="section-title__tagline">{{ __('home.our_service') }}</span>
                     <div class="section-title__tagline-shape-2"></div>
                 </div>
-                <h2 class="section-title__title title-animation">Reliable Services
-                    <span>Crafted</span> <br> <span>to Exceed</span> Your Expectations
+                <h2 class="section-title__title title-animation">{!! __('home.our_service_title') !!}
                 </h2>
             </div>
             <div class="services-three__carousel owl-theme owl-carousel">
-                <!--Services Three Single Start -->
-                <div class="item">
-                    <div class="services-three__single">
-                        <div class="services-three__icon-and-title">
-                            <div class="services-three__icon">
-                                <span class="icon-technical-support"></span>
-                            </div>
-                            <h3 class="services-three__title"><a href="#">All Kind Of
-                                    <br> IT
-                                    Services</a></h3>
-                        </div>
-                        <p class="services-three__text">Comprehensive IT management, including network
-                            monitoring, data backup</p>
-                        <ul class="list-unstyled services-three__list">
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-tick-inside-circle"></span>
-                                </div>
-                                <div class="text">
-                                    <p>Web Development</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-tick-inside-circle"></span>
-                                </div>
-                                <div class="text">
-                                    <p>App Development</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-tick-inside-circle"></span>
-                                </div>
-                                <div class="text">
-                                    <p>Graphics Design</p>
-                                </div>
-                            </li>
-                        </ul>
-                        <a href="#" class="services-three__btn">Read More <span
-                                class="icon-right-arrow-1"></span>
-                        </a>
-                    </div>
-                </div>
-                <!--Services Three Single End -->
-                <!--Services Three Single Start -->
-                <div class="item">
-                    <div class="services-three__single">
-                        <div class="services-three__icon-and-title">
-                            <div class="services-three__icon">
-                                <span class="icon-idea"></span>
-                            </div>
-                            <h3 class="services-three__title"><a
-                                    href="#">Cybersecurity
-                                    <br> Solutions</a></h3>
-                        </div>
-                        <p class="services-three__text">Comprehensive IT management, including network
-                            monitoring, data backup</p>
-                        <ul class="list-unstyled services-three__list">
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-tick-inside-circle"></span>
-                                </div>
-                                <div class="text">
-                                    <p>Web Development</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-tick-inside-circle"></span>
-                                </div>
-                                <div class="text">
-                                    <p>App Development</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-tick-inside-circle"></span>
-                                </div>
-                                <div class="text">
-                                    <p>Graphics Design</p>
-                                </div>
-                            </li>
-                        </ul>
-                        <a href="#" class="services-three__btn">Read More <span
-                                class="icon-right-arrow-1"></span>
-                        </a>
-                    </div>
-                </div>
-                <!--Services Three Single End -->
+                
                 <!--Services Three Single Start -->
                 <div class="item">
                     <div class="services-three__single">
@@ -400,20 +310,16 @@
                             <div class="services-three__icon">
                                 <span class="icon-strategy"></span>
                             </div>
-                            <h3 class="services-three__title"><a
-                                    href="#">Software
-                                    Development <br> &
-                                    Integration</a></h3>
+                            <h4 class="services-three__title">{!! __('home.our_service_1.title') !!}</h4>
                         </div>
-                        <p class="services-three__text">Comprehensive IT management, including network
-                            monitoring, data backup</p>
+                        <p class="services-three__text">{!! __('home.our_service_1.subtitle') !!}</p>
                         <ul class="list-unstyled services-three__list">
                             <li>
                                 <div class="icon">
                                     <span class="icon-tick-inside-circle"></span>
                                 </div>
                                 <div class="text">
-                                    <p>Web Development</p>
+                                    <p>{{ __('home.our_service_1.service_1') }}</p>
                                 </div>
                             </li>
                             <li>
@@ -421,7 +327,7 @@
                                     <span class="icon-tick-inside-circle"></span>
                                 </div>
                                 <div class="text">
-                                    <p>App Development</p>
+                                    <p>{{ __('home.our_service_1.service_2') }}</p>
                                 </div>
                             </li>
                             <li>
@@ -429,56 +335,11 @@
                                     <span class="icon-tick-inside-circle"></span>
                                 </div>
                                 <div class="text">
-                                    <p>Graphics Design</p>
+                                    <p>{{ __('home.our_service_1.service_3') }}</p>
                                 </div>
                             </li>
                         </ul>
-                        <a href="#" class="services-three__btn">Read More <span
-                                class="icon-right-arrow-1"></span>
-                        </a>
-                    </div>
-                </div>
-                <!--Services Three Single End -->
-                <!--Services Three Single Start -->
-                <div class="item">
-                    <div class="services-three__single">
-                        <div class="services-three__icon-and-title">
-                            <div class="services-three__icon">
-                                <span class="icon-earning"></span>
-                            </div>
-                            <h3 class="services-three__title"><a href="#">Cloud
-                                    Solutions
-                                    <br> Provider</a></h3>
-                        </div>
-                        <p class="services-three__text">Comprehensive IT management, including network
-                            monitoring, data backup</p>
-                        <ul class="list-unstyled services-three__list">
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-tick-inside-circle"></span>
-                                </div>
-                                <div class="text">
-                                    <p>Web Development</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-tick-inside-circle"></span>
-                                </div>
-                                <div class="text">
-                                    <p>App Development</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-tick-inside-circle"></span>
-                                </div>
-                                <div class="text">
-                                    <p>Graphics Design</p>
-                                </div>
-                            </li>
-                        </ul>
-                        <a href="#" class="services-three__btn">Read More <span
+                        <a href="#" class="services-three__btn">{{ __('home.read_more') }} <span
                                 class="icon-right-arrow-1"></span>
                         </a>
                     </div>
@@ -491,19 +352,16 @@
                             <div class="services-three__icon">
                                 <span class="icon-transparency"></span>
                             </div>
-                            <h3 class="services-three__title"><a href="#">Data Analytics
-                                    <br>
-                                    Consulting</a></h3>
+                            <h3 class="services-three__title">{!! __('home.our_service_2.title') !!}</h3>
                         </div>
-                        <p class="services-three__text">Comprehensive IT management, including network
-                            monitoring, data backup</p>
+                        <p class="services-three__text">{!! __('home.our_service_2.subtitle') !!}</p>
                         <ul class="list-unstyled services-three__list">
                             <li>
                                 <div class="icon">
                                     <span class="icon-tick-inside-circle"></span>
                                 </div>
                                 <div class="text">
-                                    <p>Web Development</p>
+                                    <p>{{ __('home.our_service_2.service_1') }}</p>
                                 </div>
                             </li>
                             <li>
@@ -511,7 +369,7 @@
                                     <span class="icon-tick-inside-circle"></span>
                                 </div>
                                 <div class="text">
-                                    <p>App Development</p>
+                                    <p>{{ __('home.our_service_2.service_2') }}</p>
                                 </div>
                             </li>
                             <li>
@@ -519,11 +377,137 @@
                                     <span class="icon-tick-inside-circle"></span>
                                 </div>
                                 <div class="text">
-                                    <p>Graphics Design</p>
+                                    <p>{{ __('home.our_service_2.service_3') }}</p>
                                 </div>
                             </li>
                         </ul>
-                        <a href="#" class="services-three__btn">Read More <span
+                        <a href="#" class="services-three__btn">{{ __('home.read_more') }} <span
+                                class="icon-right-arrow-1"></span>
+                        </a>
+                    </div>
+                </div>
+                <!--Services Three Single End -->
+                <!--Services Three Single Start -->
+                <div class="item">
+                    <div class="services-three__single">
+                        <div class="services-three__icon-and-title">
+                            <div class="services-three__icon">
+                                <span class="icon-earning"></span>
+                            </div>
+                            <h3 class="services-three__title">{!! __('home.our_service_3.title') !!}</h3>
+                        </div>
+                        <p class="services-three__text">{!! __('home.our_service_3.subtitle') !!}</p>
+                        <ul class="list-unstyled services-three__list">
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-tick-inside-circle"></span>
+                                </div>
+                                <div class="text">
+                                    <p>{{ __('home.our_service_3.service_1') }}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-tick-inside-circle"></span>
+                                </div>
+                                <div class="text">
+                                    <p>{{ __('home.our_service_3.service_2') }}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-tick-inside-circle"></span>
+                                </div>
+                                <div class="text">
+                                    <p>{{ __('home.our_service_3.service_3') }}</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a href="#" class="services-three__btn">{{ __('home.read_more') }} <span
+                                class="icon-right-arrow-1"></span>
+                        </a>
+                    </div>
+                </div>
+                <!--Services Three Single End -->
+                <!--Services Three Single Start -->
+                <div class="item">
+                    <div class="services-three__single">
+                        <div class="services-three__icon-and-title">
+                            <div class="services-three__icon">
+                                <span class="icon-technical-support"></span>
+                            </div>
+                            <h3 class="services-three__title">{!! __('home.our_service_4.title') !!}</h3>
+                        </div>
+                        <p class="services-three__text">{!! __('home.our_service_4.subtitle') !!}</p>
+                        <ul class="list-unstyled services-three__list">
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-tick-inside-circle"></span>
+                                </div>
+                                <div class="text">
+                                    <p>{{ __('home.our_service_4.service_1') }}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-tick-inside-circle"></span>
+                                </div>
+                                <div class="text">
+                                    <p>{{ __('home.our_service_4.service_2') }}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-tick-inside-circle"></span>
+                                </div>
+                                <div class="text">
+                                    <p>{{ __('home.our_service_4.service_3') }}</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a href="#" class="services-three__btn">{{ __('home.read_more') }} <span
+                                class="icon-right-arrow-1"></span>
+                        </a>
+                    </div>
+                </div>
+                <!--Services Three Single End -->
+                <!--Services Three Single Start -->
+                <div class="item">
+                    <div class="services-three__single">
+                        <div class="services-three__icon-and-title">
+                            <div class="services-three__icon">
+                                <span class="icon-idea"></span>
+                            </div>
+                            <h3 class="services-three__title">{!! __('home.our_service_5.title') !!}</h3>
+                        </div>
+                        <p class="services-three__text">{!! __('home.our_service_5.subtitle') !!}</p>
+                        <ul class="list-unstyled services-three__list">
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-tick-inside-circle"></span>
+                                </div>
+                                <div class="text">
+                                    <p>{{ __('home.our_service_5.service_1') }}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-tick-inside-circle"></span>
+                                </div>
+                                <div class="text">
+                                    <p>{{ __('home.our_service_5.service_2') }}</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-tick-inside-circle"></span>
+                                </div>
+                                <div class="text">
+                                    <p>{{ __('home.our_service_5.service_3') }}</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a href="#" class="services-three__btn">{{ __('home.read_more') }} <span
                                 class="icon-right-arrow-1"></span>
                         </a>
                     </div>
