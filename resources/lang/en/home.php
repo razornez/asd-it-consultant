@@ -118,4 +118,103 @@ return [
             'maintenance_text' => 'Post-release monitoring, SLA-backed support, incident response, performance tuning and continuous improvements to keep your service secure and reliable.',
         ],
     ],
+    'services' => [
+        'frontend' => 'Front-end Development',
+        'uiux' => 'UI/UX Design',
+        'mobile' => 'Mobile App Development',
+        'web3d' => 'WebGL & 3D Interactive Web',
+        'erp' => 'Enterprise Resource Planning (ERP)',
+        'strategy' => 'IT Strategy & Management',
+        'seo' => 'SEO & Digital Visibility',
+        'simrs' => 'Hospital Information System (SIM RS)',
+        'simschool' => 'School Information System (SIM School)',
+        'digital' => 'Digital Marketing & Branding',
+    ],
+    'about_us_title' => 'About Us',
+    'about_us_heading' => 'From Passion to Purpose: The Story Behind Our IT Journey',
+    'about_us_text1' => 'This company was founded by Iwan Kurniawan, an IT expert with more than 10 years of experience. As a Master’s student at ITB STEI and a professional software developer, he has contributed to IT projects both in Indonesia and across Europe. With deep knowledge of best practices in the IT industry, Iwan believes that software should never exist just for the sake of technology — it must deliver real value to its users.',
+    'about_us_text2' => 'With this mission, we are dedicated to helping businesses and organizations build digital solutions that are practical, reliable, and truly meaningful. We don’t just write code; we create solutions that empower people.',
+    'about_experience_years' => 'Years of Experience',
+    'about_highlight1_title' => 'Humble Beginnings',
+    'about_highlight1_text' => 'Started with a vision to make technology more accessible and beneficial for everyone.',
+    'about_highlight2_title' => 'Driven by Purpose',
+    'about_highlight2_text' => "We believe the best software is the one that solves real problems and improves people's lives.",
+    'portfolio_title' => 'Portfolio',
+    'portfolio_subtitle_line1' => 'Explore Our Creative',
+    'portfolio_subtitle_line2' => 'Journey',
+    'portfolio_subtitle_line3' => 'Crafting Success Through Innovation',
+
+    'portfolio_3d_portfolio' => '3D Web Portfolio',
+    'portfolio_3d_portfolio_desc' => 'Interactive and immersive 3D web experiences that tell stories in unique ways.',
+
+    'portfolio_hutri' => '3D Independence Day Experience',
+    'portfolio_hutri_desc' => 'Special themed interactive website built with WebGL & Three.js.',
+
+    'portfolio_treehouse' => 'Tree House 3D World',
+    'portfolio_treehouse_desc' => 'Playful 3D diorama with storytelling elements and interactivity.',
+
+    'portfolio_simrs' => 'Hospital Information System (SIM RS)',
+    'portfolio_simrs_desc' => 'Comprehensive hospital system for patient, doctor, and facility management.',
+
+    'portfolio_school' => 'School Information System (SIM School)',
+    'portfolio_school_desc' => 'Education management system for schools and universities.',
+
+    'portfolio_inventory' => 'Inventory Management System',
+    'portfolio_inventory_desc' => 'Web-based system for stock and warehouse management.',
+
+    'portfolio_mobileapp' => 'Mobile App Development',
+    'portfolio_mobileapp_desc' => 'Cross-platform mobile apps with modern UI and seamless performance.',
+
+    'portfolio_erp' => 'Enterprise Resource Planning (ERP)',
+    'portfolio_erp_desc' => 'Integrated ERP solutions for finance, HR, and operations.',
+    'contact' => [
+        'form_title' => 'How Can We Help You?',
+        'name' => 'Full Name',
+        'email' => 'Email Address',
+        'phone' => 'Phone Number',
+        'subject' => 'Subject',
+        'message' => 'Message',
+        'submit' => 'Submit Now',
+
+        'placeholder_name' => 'Your Full Name',
+        'placeholder_email' => 'your@email.com',
+        'placeholder_phone' => '+62 xxx',
+        'placeholder_subject' => 'Your Subject',
+        'placeholder_message' => 'Write your message here...',
+
+        'tagline' => 'Get In Touch',
+        'title' => 'Start the Conversation – Reach Out Anytime',
+        'description' => "We're here to listen! Feel free to reach out for questions, feedback, or just to say hello.",
+        'address_title' => 'Location',
+        'email_title' => 'Email Us',
+        'phone_title' => 'Contact',
+        'address_value' => 'D16 Pondok Sabilulungan, Banjaran St., Bandung, Indonesia',
+        'email_value' => 'cs@anugrahdigital.co.id',
+        'phone_value' => '+62 858 8996 3822',
+    ],
+    'testimonial' => [
+        'section_tagline' => 'Client Testimonials',
+        'title' => 'What Our Clients Say About Us',
+
+        'testi1' => [
+            'title' => 'Smooth Process, Great Results',
+            'text' => '"At first I was a bit hesitant, but the process turned out to be super smooth. The team was communicative and the final website exceeded our expectations. Now it’s easier to manage and looks more professional."',
+            'role' => 'Online Store Owner',
+            'name' => 'Andi Pratama',
+        ],
+
+        'testi2' => [
+            'title' => 'A Reliable Partner',
+            'text' => '"They developed our internal office app under a tight deadline, but the team stayed calm and delivered great results. We still use the app every day."',
+            'role' => 'HR Manager',
+            'name' => 'Rina Wijayanti',
+        ],
+
+        'testi3' => [
+            'title' => 'Feels Like Having a Friend Helping',
+            'text' => '"It’s not just about the technical work, they also gave us valuable business insights. It feels more like having a partner rather than just a vendor."',
+            'role' => 'Startup Founder',
+            'name' => 'Budi Santoso',
+        ],
+    ],
 ];

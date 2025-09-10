@@ -777,27 +777,43 @@
         <div class="sliding-text__wrap">
             <ul class="sliding-text__list list-unstyled marquee_mode">
                 <li>
-                    <h2 data-hover="Front end Development" class="sliding-text__title">Front end Development</h2>
+                    <h2 data-hover="{{ __('home.services.frontend') }}" class="sliding-text__title">{{ __('home.services.frontend') }}</h2>
                     <span></span>
                 </li>
                 <li>
-                    <h2 data-hover="UI/UX Design" class="sliding-text__title">UI/UX Design</h2>
+                    <h2 data-hover="{{ __('home.services.uiux') }}" class="sliding-text__title">{{ __('home.services.uiux') }}</h2>
                     <span></span>
                 </li>
                 <li>
-                    <h2 data-hover="Product Design" class="sliding-text__title">Product Design</h2>
+                    <h2 data-hover="{{ __('home.services.mobile') }}" class="sliding-text__title">{{ __('home.services.mobile') }}</h2>
                     <span></span>
                 </li>
                 <li>
-                    <h2 data-hover="Digital Marketing" class="sliding-text__title">Digital Marketing</h2>
+                    <h2 data-hover="{{ __('home.services.web3d') }}" class="sliding-text__title">{{ __('home.services.web3d') }}</h2>
                     <span></span>
                 </li>
                 <li>
-                    <h2 data-hover="Website Design" class="sliding-text__title">Website Design</h2>
+                    <h2 data-hover="{{ __('home.services.erp') }}" class="sliding-text__title">{{ __('home.services.erp') }}</h2>
                     <span></span>
                 </li>
                 <li>
-                    <h2 data-hover="APP Development" class="sliding-text__title">APP Development</h2>
+                    <h2 data-hover="{{ __('home.services.strategy') }}" class="sliding-text__title">{{ __('home.services.strategy') }}</h2>
+                    <span></span>
+                </li>
+                <li>
+                    <h2 data-hover="{{ __('home.services.seo') }}" class="sliding-text__title">{{ __('home.services.seo') }}</h2>
+                    <span></span>
+                </li>
+                <li>
+                    <h2 data-hover="{{ __('home.services.simrs') }}" class="sliding-text__title">{{ __('home.services.simrs') }}</h2>
+                    <span></span>
+                </li>
+                <li>
+                    <h2 data-hover="{{ __('home.services.simschool') }}" class="sliding-text__title">{{ __('home.services.simschool') }}</h2>
+                    <span></span>
+                </li>
+                <li>
+                    <h2 data-hover="{{ __('home.services.digital') }}" class="sliding-text__title">{{ __('home.services.digital') }}</h2>
                     <span></span>
                 </li>
             </ul>
@@ -813,6 +829,7 @@
             style="background-image: url({{ asset('assets/images/shapes/about-four-bg-shape-2.png') }});"></div>
         <div class="container">
             <div class="row">
+                <!-- Left -->
                 <div class="col-xl-6">
                     <div class="about-four__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                         <div class="about-four__img-box">
@@ -825,106 +842,51 @@
                             <div class="about-four__experience">
                                 <div class="about-four__experience-inner">
                                     <div class="about-four__experience-count-box">
-                                        <h3 class="odometer" data-count="25">00</h3>
+                                        <h3 class="odometer" data-count="10">00</h3>+
                                     </div>
-                                    <p class="about-four__experience-count-text">Years of
-                                        <br> Experience</p>
+                                    <p class="about-four__experience-count-text">{{ __('home.about_experience_years') }}</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="about-four__client-box">
-                            <ul class="about-four__client-img-list list-unstyled">
-                                <li>
-                                    <div class="about-four__client-img">
-                                        <img src="{{ asset('assets/images/resources/about-four-client-img-1-1.jpg') }}" alt="">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="about-four__client-img">
-                                        <img src="{{ asset('assets/images/resources/about-four-client-img-1-2.jpg') }}" alt="">
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="about-four__client-img">
-                                        <img src="{{ asset('assets/images/resources/about-four-client-img-1-3.jpg') }}" alt="">
-                                    </div>
-                                </li>
-                                <li>
-                                    <a href="#"><span class="icon-plus"></span></a>
-                                </li>
-                            </ul>
-                            <p class="about-four__client-text"><span class="odometer"
-                                    data-count="120">00</span><span>K</span> Satisfied Client</p>
-                        </div>
                     </div>
                 </div>
+
+                <!-- Right -->
                 <div class="col-xl-6">
                     <div class="about-four__right">
                         <div class="section-title text-left sec-title-animation animation-style2">
                             <div class="section-title__tagline-box">
                                 <div class="section-title__tagline-shape-1"></div>
-                                <span class="section-title__tagline">About Us</span>
+                                <span class="section-title__tagline">{{ __('home.about_us_title') }}</span>
                                 <div class="section-title__tagline-shape-2"></div>
                             </div>
-                            <h2 class="section-title__title title-animation">Supercharge <span>Your
-                                    Business</span><br><span>Growth with Our</span>
-                                Cutting-Edge IT<br> Solutions</h2>
+                            <h2 class="section-title__title title-animation">
+                                {{ __('home.about_us_heading') }}
+                            </h2>
                         </div>
-                        <p class="about-four__text">Transform your business with our innovative IT solutions,
-                            tailored to address your unique challenges and drive growth in today’s digital
-                            landscape.</p>
-                        <div class="about-four__points-box">
-                            <ul class="about-four__points-list list-unstyled">
-                                <li>
-                                    <div class="icon">
-                                        <span class="icon-tick-inside-circle"></span>
-                                    </div>
-                                    <p>Innovative IT Solutions Expert<br> Support & Consulting</p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <span class="icon-tick-inside-circle"></span>
-                                    </div>
-                                    <p>Cloud Solutions for Modern<br> Enterprises</p>
-                                </li>
-                            </ul>
-                            <ul class="about-four__points-list about-four__points-list-2 list-unstyled">
-                                <li>
-                                    <div class="icon">
-                                        <span class="icon-tick-inside-circle"></span>
-                                    </div>
-                                    <p>Seamless Digital<br> Transformation AI-Driven <br>Business Automation</p>
-                                </li>
-                                <li>
-                                    <div class="about-four__points-list-img">
-                                        <img src="{{ asset('assets/images/resources/about-four-points-list-img.jpg') }}" alt="">
-                                    </div>
-                                    <div class="about-four__points-list-content">
-                                        <h5>Thomas Alison</h5>
-                                        <p>Founder & SEO</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+
+                        <!-- Founder Story -->
+                        <p class="about-four__text">
+                            {{ __('home.about_us_text1') }}
+                        </p>
+                        <p class="about-four__text">
+                            {{ __('home.about_us_text2') }}
+                        </p>
+                        <br>
+                        <!-- Highlights -->
                         <ul class="about-four__points-2 list-unstyled">
                             <li>
-                                <div class="icon">
-                                    <span class="icon-technical-support"></span>
-                                </div>
+                                <div class="icon"><span class="icon-technical-support"></span></div>
                                 <div class="content">
-                                    <h5>Innovative IT Solutions</h5>
-                                    <p>Stay ahead with cutting-edge technology tailored to <br>your business needs.
-                                    </p>
+                                    <h5>{{ __('home.about_highlight1_title') }}</h5>
+                                    <p>{{ __('home.about_highlight1_text') }}</p>
                                 </div>
                             </li>
                             <li>
-                                <div class="icon">
-                                    <span class="icon-real-estate-agency"></span>
-                                </div>
+                                <div class="icon"><span class="icon-real-estate-agency"></span></div>
                                 <div class="content">
-                                    <h5>Cloud Solutions </h5>
-                                    <p>Secure, scalable, and efficient cloud services to power<br> your growth.
-                                        Cloud Solutions for Modern Enterprises</p>
+                                    <h5>{{ __('home.about_highlight2_title') }}</h5>
+                                    <p>{{ __('home.about_highlight2_text') }}</p>
                                 </div>
                             </li>
                         </ul>
@@ -935,6 +897,7 @@
     </section>
     <!--About Four End-->
 
+    <!-- Portfolio Two Start -->
     <!-- Portfolio Two Start -->
     <section class="portfolio-two" id="portfolio">
         <div class="portfolio-two__shape-1 float-bob-y">
@@ -947,100 +910,77 @@
             <div class="section-title text-center sec-title-animation animation-style1">
                 <div class="section-title__tagline-box">
                     <div class="section-title__tagline-shape-1"></div>
-                    <span class="section-title__tagline">Portfolio</span>
+                    <span class="section-title__tagline">{{ __('home.portfolio_title') }}</span>
                     <div class="section-title__tagline-shape-2"></div>
                 </div>
-                <h2 class="section-title__title title-animation">Explore Our Creative <span>Journey</span><br>
-                    <span> Crafting Success Through</span>
+                <h2 class="section-title__title title-animation">
+                    {{ __('home.portfolio_subtitle_line1') }} <span>{{ __('home.portfolio_subtitle_line2') }}</span><br>
+                    <span>{{ __('home.portfolio_subtitle_line3') }}</span>
                 </h2>
             </div>
+
             <div class="portfolio-two__carousel-container">
                 <div class="portfolio-two__carousel owl-carousel owl-theme">
-                    <!--Portfolio Two Single Start-->
+
+                    <!-- Portfolio 1 -->
                     <div class="item">
                         <div class="portfolio-two__single-box">
                             <ul class="portfolio-two__box list-unstyled">
                                 <li>
                                     <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/portfolio-2-1.jpg') }});">
-                                        </div>
+                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/sim-rs.jpg') }});" loading="lazy"></div>
                                         <div class="portfolio-two__title">
-                                            <h3><a href="#">Innovative Solutions,<br> Powerful
-                                                    Results</a></h3>
+                                            <h3><a href="https://www.razornez.net/" target="_blank">{{ __('home.portfolio_3d_portfolio') }}</a></h3>
                                         </div>
                                         <div class="portfolio-two__content-box">
-                                            <div class="portfolio-two__icon">
-                                                <a href="{{ asset('assets/images/project/portfolio-2-1.jpg') }}" class="img-popup"><span class="icon-right-arrow-1"></span></a>
-                                            </div>
                                             <div class="portfolio-two__title-box">
-                                                <h3 class="portfolio-two__title-2"><a href="#">Innovative Solutions,<br>
-                                                        Powerful
-                                                        Results</a></h3>
-                                                <p class="portfolio-two__text">Explore How We've Empowered
-                                                    Businesses with Innovative Tech Solutions</p>
+                                                <h3 class="portfolio-two__title-2"><a href="https://www.razornez.net/" target="_blank">{{ __('home.portfolio_3d_portfolio') }}</a></h3>
+                                                <p class="portfolio-two__text">{{ __('home.portfolio_3d_portfolio_desc') }}</p>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
+
                                 <li class="active">
                                     <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/portfolio-2-2.jpg') }});">
-                                        </div>
+                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/sim-rs.jpg') }});" loading="lazy"></div>
                                         <div class="portfolio-two__title">
-                                            <h3><a href="#">Transforming Ideas Into<br> Digital
-                                                    Excellence</a></h3>
+                                            <h3><a href="https://hutri.vercel.app/" target="_blank">{{ __('home.portfolio_hutri') }}</a></h3>
                                         </div>
                                         <div class="portfolio-two__content-box">
-                                            <div class="portfolio-two__icon">
-                                                <a href="{{ asset('assets/images/project/portfolio-2-2.jpg') }}" class="img-popup"><span class="icon-right-arrow-1"></span></a>
-                                            </div>
                                             <div class="portfolio-two__title-box">
-                                                <h3 class="portfolio-two__title-2"><a href="#">Transforming Ideas Into
-                                                        Digital Excellence</a></h3>
-                                                <p class="portfolio-two__text">Explore How We've Empowered
-                                                    Businesses with Innovative Tech Solutions</p>
+                                                <h3 class="portfolio-two__title-2"><a href="https://hutri.vercel.app/" target="_blank">{{ __('home.portfolio_hutri') }}</a></h3>
+                                                <p class="portfolio-two__text">{{ __('home.portfolio_hutri_desc') }}</p>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
+
                                 <li>
                                     <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/portfolio-2-3.jpg') }});">
-                                        </div>
+                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/sim-rs.jpg') }});" loading="lazy"></div>
                                         <div class="portfolio-two__title">
-                                            <h3><a href="#">Driving Success Through<br>
-                                                    Technology</a></h3>
+                                            <h3><a href="https://tree-house-3d.vercel.app/" target="_blank">{{ __('home.portfolio_treehouse') }}</a></h3>
                                         </div>
                                         <div class="portfolio-two__content-box">
-                                            <div class="portfolio-two__icon">
-                                                <a href="{{ asset('assets/images/project/portfolio-2-3.jpg') }}" class="img-popup"><span class="icon-right-arrow-1"></span></a>
-                                            </div>
                                             <div class="portfolio-two__title-box">
-                                                <h3 class="portfolio-two__title-2"><a href="#">Driving Success Through
-                                                        Technology</a></h3>
-                                                <p class="portfolio-two__text">Explore How We've Empowered
-                                                    Businesses with Innovative Tech Solutions</p>
+                                                <h3 class="portfolio-two__title-2"><a href="https://tree-house-3d.vercel.app/" target="_blank">{{ __('home.portfolio_treehouse') }}</a></h3>
+                                                <p class="portfolio-two__text">{{ __('home.portfolio_treehouse_desc') }}</p>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
+
                                 <li>
                                     <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/portfolio-2-4.jpg') }});">
-                                        </div>
+                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/sim-rs.jpg') }});" loading="lazy"></div>
                                         <div class="portfolio-two__title">
-                                            <h3><a href="#">Empowering Businesses<br> with
-                                                    Cutting-Edge IT</a></h3>
+                                            <h3><a href="#">{{ __('home.portfolio_simrs') }}</a></h3>
                                         </div>
                                         <div class="portfolio-two__content-box">
-                                            <div class="portfolio-two__icon">
-                                                <a href="{{ asset('assets/images/project/portfolio-2-4.jpg') }}" class="img-popup"><span class="icon-right-arrow-1"></span></a>
-                                            </div>
                                             <div class="portfolio-two__title-box">
-                                                <h3 class="portfolio-two__title-2"><a href="#">Empowering Businesses with
-                                                        Cutting-Edge IT</a></h3>
-                                                <p class="portfolio-two__text">Explore How We've Empowered
-                                                    Businesses with Innovative Tech Solutions</p>
+                                                <h3 class="portfolio-two__title-2"><a href="#">{{ __('home.portfolio_simrs') }}</a></h3>
+                                                <p class="portfolio-two__text">{{ __('home.portfolio_simrs_desc') }}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1048,92 +988,66 @@
                             </ul>
                         </div>
                     </div>
-                    <!--Portfolio Two Single End-->
-                    <!--Portfolio Two Single Start-->
+
+                    <!-- Portfolio 2 -->
                     <div class="item">
                         <div class="portfolio-two__single-box">
                             <ul class="portfolio-two__box list-unstyled">
                                 <li>
                                     <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/portfolio-2-1.jpg') }});">
-                                        </div>
+                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/sim-school.jpg') }});" loading="lazy"></div>
                                         <div class="portfolio-two__title">
-                                            <h3><a href="#">Innovative Solutions,<br> Powerful
-                                                    Results</a></h3>
+                                            <h3><a href="#">{{ __('home.portfolio_school') }}</a></h3>
                                         </div>
                                         <div class="portfolio-two__content-box">
-                                            <div class="portfolio-two__icon">
-                                                <a href="{{ asset('assets/images/project/portfolio-2-1.jpg') }}" class="img-popup"><span class="icon-right-arrow-1"></span></a>
-                                            </div>
                                             <div class="portfolio-two__title-box">
-                                                <h3 class="portfolio-two__title-2"><a href="#">Innovative Solutions,<br>
-                                                        Powerful
-                                                        Results</a></h3>
-                                                <p class="portfolio-two__text">Explore How We've Empowered
-                                                    Businesses with Innovative Tech Solutions</p>
+                                                <h3 class="portfolio-two__title-2"><a href="#">{{ __('home.portfolio_school') }}</a></h3>
+                                                <p class="portfolio-two__text">{{ __('home.portfolio_school_desc') }}</p>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
+
                                 <li class="active">
                                     <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/portfolio-2-2.jpg') }});">
-                                        </div>
+                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/inventory-system.jpg') }});" loading="lazy"></div>
                                         <div class="portfolio-two__title">
-                                            <h3><a href="#">Transforming Ideas Into<br> Digital
-                                                    Excellence</a></h3>
+                                            <h3><a href="#">{{ __('home.portfolio_inventory') }}</a></h3>
                                         </div>
                                         <div class="portfolio-two__content-box">
-                                            <div class="portfolio-two__icon">
-                                                <a href="{{ asset('assets/images/project/portfolio-2-2.jpg') }}" class="img-popup"><span class="icon-right-arrow-1"></span></a>
-                                            </div>
                                             <div class="portfolio-two__title-box">
-                                                <h3 class="portfolio-two__title-2"><a href="#">Transforming Ideas Into
-                                                        Digital Excellence</a></h3>
-                                                <p class="portfolio-two__text">Explore How We've Empowered
-                                                    Businesses with Innovative Tech Solutions</p>
+                                                <h3 class="portfolio-two__title-2"><a href="#">{{ __('home.portfolio_inventory') }}</a></h3>
+                                                <p class="portfolio-two__text">{{ __('home.portfolio_inventory_desc') }}</p>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
+
                                 <li>
                                     <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/portfolio-2-3.jpg') }});">
-                                        </div>
+                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/mobile-app.jpg') }});" loading="lazy"></div>
                                         <div class="portfolio-two__title">
-                                            <h3><a href="#">Driving Success Through<br>
-                                                    Technology</a></h3>
+                                            <h3><a href="#">{{ __('home.portfolio_mobileapp') }}</a></h3>
                                         </div>
                                         <div class="portfolio-two__content-box">
-                                            <div class="portfolio-two__icon">
-                                                <a href="{{ asset('assets/images/project/portfolio-2-3.jpg') }}" class="img-popup"><span class="icon-right-arrow-1"></span></a>
-                                            </div>
                                             <div class="portfolio-two__title-box">
-                                                <h3 class="portfolio-two__title-2"><a href="#">Driving Success Through
-                                                        Technology</a></h3>
-                                                <p class="portfolio-two__text">Explore How We've Empowered
-                                                    Businesses with Innovative Tech Solutions</p>
+                                                <h3 class="portfolio-two__title-2"><a href="#">{{ __('home.portfolio_mobileapp') }}</a></h3>
+                                                <p class="portfolio-two__text">{{ __('home.portfolio_mobileapp_desc') }}</p>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
+
                                 <li>
                                     <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/portfolio-2-4.jpg') }});">
-                                        </div>
+                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/erp.jpg') }});" loading="lazy"></div>
                                         <div class="portfolio-two__title">
-                                            <h3><a href="#">Empowering Businesses<br> with
-                                                    Cutting-Edge IT</a></h3>
+                                            <h3><a href="#">{{ __('home.portfolio_erp') }}</a></h3>
                                         </div>
                                         <div class="portfolio-two__content-box">
-                                            <div class="portfolio-two__icon">
-                                                <a href="{{ asset('assets/images/project/portfolio-2-4.jpg') }}" class="img-popup"><span class="icon-right-arrow-1"></span></a>
-                                            </div>
                                             <div class="portfolio-two__title-box">
-                                                <h3 class="portfolio-two__title-2"><a href="#">Empowering Businesses with
-                                                        Cutting-Edge IT</a></h3>
-                                                <p class="portfolio-two__text">Explore How We've Empowered
-                                                    Businesses with Innovative Tech Solutions</p>
+                                                <h3 class="portfolio-two__title-2"><a href="#">{{ __('home.portfolio_erp') }}</a></h3>
+                                                <p class="portfolio-two__text">{{ __('home.portfolio_erp_desc') }}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1141,208 +1055,78 @@
                             </ul>
                         </div>
                     </div>
-                    <!--Portfolio Two Single End-->
-                    <!--Portfolio Two Single Start-->
-                    <div class="item">
-                        <div class="portfolio-two__single-box">
-                            <ul class="portfolio-two__box list-unstyled">
-                                <li>
-                                    <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/portfolio-2-1.jpg') }});">
-                                        </div>
-                                        <div class="portfolio-two__title">
-                                            <h3><a href="#">Innovative Solutions,<br> Powerful
-                                                    Results</a></h3>
-                                        </div>
-                                        <div class="portfolio-two__content-box">
-                                            <div class="portfolio-two__icon">
-                                                <a href="{{ asset('assets/images/project/portfolio-2-1.jpg') }}" class="img-popup"><span class="icon-right-arrow-1"></span></a>
-                                            </div>
-                                            <div class="portfolio-two__title-box">
-                                                <h3 class="portfolio-two__title-2"><a href="#">Innovative Solutions,<br>
-                                                        Powerful
-                                                        Results</a></h3>
-                                                <p class="portfolio-two__text">Explore How We've Empowered
-                                                    Businesses with Innovative Tech Solutions</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="active">
-                                    <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/portfolio-2-2.jpg') }});">
-                                        </div>
-                                        <div class="portfolio-two__title">
-                                            <h3><a href="#">Transforming Ideas Into<br> Digital
-                                                    Excellence</a></h3>
-                                        </div>
-                                        <div class="portfolio-two__content-box">
-                                            <div class="portfolio-two__icon">
-                                                <a href="{{ asset('assets/images/project/portfolio-2-2.jpg') }}" class="img-popup"><span class="icon-right-arrow-1"></span></a>
-                                            </div>
-                                            <div class="portfolio-two__title-box">
-                                                <h3 class="portfolio-two__title-2"><a href="#">Transforming Ideas Into
-                                                        Digital Excellence</a></h3>
-                                                <p class="portfolio-two__text">Explore How We've Empowered
-                                                    Businesses with Innovative Tech Solutions</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/portfolio-2-3.jpg') }});">
-                                        </div>
-                                        <div class="portfolio-two__title">
-                                            <h3><a href="#">Driving Success Through<br>
-                                                    Technology</a></h3>
-                                        </div>
-                                        <div class="portfolio-two__content-box">
-                                            <div class="portfolio-two__icon">
-                                                <a href="{{ asset('assets/images/project/portfolio-2-3.jpg') }}" class="img-popup"><span class="icon-right-arrow-1"></span></a>
-                                            </div>
-                                            <div class="portfolio-two__title-box">
-                                                <h3 class="portfolio-two__title-2"><a href="#">Driving Success Through
-                                                        Technology</a></h3>
-                                                <p class="portfolio-two__text">Explore How We've Empowered
-                                                    Businesses with Innovative Tech Solutions</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/portfolio-2-4.jpg') }});">
-                                        </div>
-                                        <div class="portfolio-two__title">
-                                            <h3><a href="#">Empowering Businesses<br> with
-                                                    Cutting-Edge IT</a></h3>
-                                        </div>
-                                        <div class="portfolio-two__content-box">
-                                            <div class="portfolio-two__icon">
-                                                <a href="{{ asset('assets/images/project/portfolio-2-4.jpg') }}" class="img-popup"><span class="icon-right-arrow-1"></span></a>
-                                            </div>
-                                            <div class="portfolio-two__title-box">
-                                                <h3 class="portfolio-two__title-2"><a href="#">Empowering Businesses with
-                                                        Cutting-Edge IT</a></h3>
-                                                <p class="portfolio-two__text">Explore How We've Empowered
-                                                    Businesses with Innovative Tech Solutions</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--Portfolio Two Single End-->
                 </div>
             </div>
         </div>
     </section>
     <!-- Portfolio Two End -->
-
     <!-- Contact One Start -->
     <section class="contact-one" id="contact">
-        <div class="contact-one__bg-shape"
-            style="background-image: url({{ asset('assets/images/shapes/contact-one-bg-shape.png') }});"></div>
         <div class="container">
             <div class="row">
+                <!-- Form -->
                 <div class="col-xl-6 col-lg-6">
-                    <div class="contact-one__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                        <div class="contact-one__left-shape-1"></div>
-                        <div class="contact-one__left-shape-2"></div>
-                        <h3 class="contact-one__from-title">How Can We Help You?</h3>
-                        <form class="contact-form-validated contact-one__form" action="assets/inc/sendemail.php"
-                            method="post" novalidate="novalidate">
+                    <div class="contact-one__left">
+                        <h3 class="contact-one__from-title">{{ __('home.contact.form_title') }}</h3>
+                        <form onsubmit="sendToWhatsApp(event)" class="contact-form-validated contact-one__form">
+                            @csrf
                             <div class="row">
-                                <div class="col-xl-6 col-lg-6">
-                                    <h4 class="contact-one__input-title">Full Name</h4>
+                                <div class="col-xl-6">
+                                    <h4 class="contact-one__input-title">{{ __('home.contact.name') }}</h4>
                                     <div class="contact-one__input-box">
-                                        <div class="contact-one__input-icon">
-                                            <span class="icon-user-1"></span>
-                                        </div>
-                                        <input type="text" name="name" placeholder="Thomas Alison" required="">
+                                        <input type="text" id="name" name="name" placeholder="{{ __('home.contact.placeholder_name') }}" required>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6">
-                                    <h4 class="contact-one__input-title">Email Address</h4>
+                                <div class="col-xl-6">
+                                    <h4 class="contact-one__input-title">{{ __('home.contact.email') }}</h4>
                                     <div class="contact-one__input-box">
-                                        <div class="contact-one__input-icon">
-                                            <span class="icon-email"></span>
-                                        </div>
-                                        <input type="email" name="email" placeholder="thomas@domain.com"
-                                            required="">
+                                        <input type="email" id="email" name="email" placeholder="{{ __('home.contact.placeholder_email') }}" required>
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6">
-                                    <h4 class="contact-one__input-title">Phone Number</h4>
+                                <div class="col-xl-6">
+                                    <h4 class="contact-one__input-title">{{ __('home.contact.phone') }}</h4>
                                     <div class="contact-one__input-box">
-                                        <div class="contact-one__input-icon">
-                                            <span class="icon-phone-call"></span>
-                                        </div>
-                                        <input type="text" name="Phone" placeholder=" 12 (00) 123 4567 890"
-                                            required="">
+                                        <input type="text" id="phone" name="phone" placeholder="{{ __('home.contact.placeholder_phone') }}">
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6">
-                                    <h4 class="contact-one__input-title">Subject</h4>
+                                <div class="col-xl-6">
+                                    <h4 class="contact-one__input-title">{{ __('home.contact.subject') }}</h4>
                                     <div class="contact-one__input-box">
-                                        <div class="select-box">
-                                            <select class="selectmenu wide">
-                                                <option selected>Thomas Alison
-                                                </option>
-                                                <option>Type Of Service 01</option>
-                                                <option>Type Of Service 02</option>
-                                                <option>Type Of Service 03</option>
-                                                <option>Type Of Service 04</option>
-                                                <option>Type Of Service 05</option>
-                                            </select>
-                                        </div>
+                                        <input type="text" id="subject" name="subject" placeholder="{{ __('home.contact.placeholder_subject') }}">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-12">
-                                <h4 class="contact-one__input-title">Inquiry about </h4>
+                                <h4 class="contact-one__input-title">{{ __('home.contact.message') }}</h4>
                                 <div class="contact-one__input-box text-message-box">
-                                    <div class="contact-one__input-icon">
-                                        <span class="icon-edit"></span>
-                                    </div>
-                                    <textarea name="message" placeholder="Write your message"></textarea>
+                                    <textarea id="message" name="message" placeholder="{{ __('home.contact.placeholder_message') }}"></textarea>
                                 </div>
                                 <div class="contact-one__btn-box">
-                                    <button type="submit" class="thm-btn"><span>Submit
-                                            Now</span><i class="icon-right-arrow"></i></button>
+                                    <button type="submit" class="thm-btn">
+                                        <span>{{ __('home.contact.submit') }}</span>
+                                    </button>
                                 </div>
                             </div>
-                            <div class="result mt-2"></div>
                         </form>
                     </div>
                 </div>
+
+                <!-- Info -->
                 <div class="col-xl-6 col-lg-6">
                     <div class="contact-one__right">
-                        <div class="section-title text-left sec-title-animation animation-style2">
-                            <div class="section-title__tagline-box">
-                                <div class="section-title__tagline-shape-1"></div>
-                                <span class="section-title__tagline">Get In Touch</span>
-                                <div class="section-title__tagline-shape-2"></div>
-                            </div>
-                            <h2 class="section-title__title title-animation">Start the Conversation
-                                <span>–</span><br><span>Reach Out Anytime</span>
-                            </h2>
+                        <div class="section-title text-left">
+                            <span class="section-title__tagline">{{ __('home.contact.tagline') }}</span>
+                            <h2 class="section-title__title">{{ __('home.contact.title') }}</h2>
                         </div>
-                        <p class="contact-one__text">We're here to listen! Whether you have questions,<br> feedback,
-                            or
-                            just want to say hello, feel free to reach out. </p>
+                        <p class="contact-one__text">{{ __('home.contact.description') }}</p>
                         <ul class="contact-one__list list-unstyled">
                             <li>
                                 <div class="icon">
                                     <span class="icon-pin"></span>
                                 </div>
                                 <div class="content">
-                                    <h4>Location</h4>
-                                    <p>D16 Pondok Sabilulungan, Banjaran St., Arjasari, Bandung, West Java
-                                        <br> Indonesia, 40379
-                                    </p>
+                                    <h4>{{ __('home.contact.address_title') }}</h4>
+                                    <p>{{ __('home.contact.address_value') }}</p>
                                 </div>
                             </li>
                             <li>
@@ -1350,9 +1134,8 @@
                                     <span class="icon-mail"></span>
                                 </div>
                                 <div class="content">
-                                    <h4>Email Us</h4>
-                                    <p><a href="mailto:info@domain.com">info@domain.com</a></p>
-                                    <p><a href="mailto:support@domain.com">support@domain.com</a></p>
+                                    <h4>{{ __('home.contact.email_title') }}</h4>
+                                    <p><a href="mailto:cs@anugrahdigital.co.i.id">{{ __('home.contact.email_value') }}</a></p>
                                 </div>
                             </li>
                             <li>
@@ -1360,9 +1143,8 @@
                                     <span class="icon-phone-call"></span>
                                 </div>
                                 <div class="content">
-                                    <h4>Contact</h4>
-                                    <p>Tel: <a href="tel:1200456789000"> 12 (00) 456 7890 00</a></p>
-                                    <p>Mob: <a href="tel:9900567780"> 99 (00) 567 780</a></p>
+                                    <h4>{{ __('home.contact.phone_title') }}</h4>
+                                    <p>{{ __('home.contact.phone_value') }}</p>
                                 </div>
                             </li>
                         </ul>
@@ -1371,6 +1153,7 @@
             </div>
         </div>
     </section>
+
     <!-- Contact One End -->
 
     <!-- Testimonial One Start -->
@@ -1389,78 +1172,50 @@
                         <div class="section-title text-left sec-title-animation animation-style2">
                             <div class="section-title__tagline-box">
                                 <div class="section-title__tagline-shape-1"></div>
-                                <span class="section-title__tagline">Client Testimonial</span>
+                                <span class="section-title__tagline">{{ __('home.testimonial.section_tagline') }}</span>
                                 <div class="section-title__tagline-shape-2"></div>
                             </div>
-                            <h2 class="section-title__title title-animation">What Our Clients
-                                <span>– Say<br></span><span> About Us</span>
+                            <h2 class="section-title__title title-animation">
+                                {{ __('home.testimonial.title') }}
                             </h2>
                         </div>
                         <div class="testimonial-one__carousel owl-theme owl-carousel">
+                            
+                            <!-- Testimoni 1 -->
                             <div class="item">
                                 <div class="testimonial-one__single">
                                     <div class="testimonial-one__img-box">
                                         <div class="testimonial-one__img">
-                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-1.jpg') }}"
-                                                alt="">
+                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-1.jpg') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="testimonial-one__content">
-                                        <h4 class="testimonial-one__title">!Great Agency It Agency</h4>
-                                        <p class="testimonial-one__text">“From the initial consultation to the final
-                                            product, every step was handled with professionalism and care. The final
-                                            result exceeded our expectations and has significantly improved our
-                                            operations"</p>
+                                        <h4 class="testimonial-one__title">{{ __('home.testimonial.testi1.title') }}</h4>
+                                        <p class="testimonial-one__text">{{ __('home.testimonial.testi1.text') }}</p>
                                         <div class="testimonial-one__bottom">
                                             <div class="testimonial-one__quote-and-client-info">
                                                 <div class="testimonial-one__quote">
                                                     <span class="icon-left"></span>
                                                 </div>
                                                 <div class="testimonial-one__client-info">
-                                                    <p class="testimonial-one__client-sub-title">Marketing Manager
-                                                    </p>
-                                                    <h3 class="testimonial-one__client-name"><a
-                                                            href="#">Sarah Collins</a></h3>
+                                                    <p class="testimonial-one__client-sub-title">{{ __('home.testimonial.testi1.role') }}</p>
+                                                    <h3 class="testimonial-one__client-name">
+                                                        <a href="#">{{ __('home.testimonial.testi1.name') }}</a>
+                                                    </h3>
                                                 </div>
                                             </div>
                                             <div class="testimonial-one__trustpilot-box">
                                                 <div class="testimonial-one__trustpilot-logo">
-                                                    <img src="{{ asset('assets/images/resources/trustpilot-logo.png') }}"
-                                                        alt="">
+                                                    <img src="{{ asset('assets/images/resources/trustpilot-logo.png') }}" alt="">
                                                 </div>
                                                 <div class="testimonial-one__trustpilot-text-and-star">
-                                                    <p class="testimonial-one__trustpilot-text">5.0 Excellent </p>
+                                                    <p class="testimonial-one__trustpilot-text">5.0 Excellent</p>
                                                     <ul class="list-unstyled testimonial-one__trustpilot-star-list">
-                                                        <li>
-                                                            <div class="testimonial-one__trustpilot-star-icon">
-                                                                <img src="{{ asset('assets/images/icon/star-icon.png') }}"
-                                                                    alt="">
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="testimonial-one__trustpilot-star-icon">
-                                                                <img src="{{ asset('assets/images/icon/star-icon.png') }}"
-                                                                    alt="">
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="testimonial-one__trustpilot-star-icon">
-                                                                <img src="{{ asset('assets/images/icon/star-icon.png') }}"
-                                                                    alt="">
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="testimonial-one__trustpilot-star-icon">
-                                                                <img src="{{ asset('assets/images/icon/star-icon.png') }}"
-                                                                    alt="">
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="testimonial-one__trustpilot-star-icon">
-                                                                <img src="{{ asset('assets/images/icon/star-icon.png') }}"
-                                                                    alt="">
-                                                            </div>
-                                                        </li>
+                                                        <li><div class="testimonial-one__trustpilot-star-icon"><img src="{{ asset('assets/images/icon/star-icon.png') }}" alt=""></div></li>
+                                                        <li><div class="testimonial-one__trustpilot-star-icon"><img src="{{ asset('assets/images/icon/star-icon.png') }}" alt=""></div></li>
+                                                        <li><div class="testimonial-one__trustpilot-star-icon"><img src="{{ asset('assets/images/icon/star-icon.png') }}" alt=""></div></li>
+                                                        <li><div class="testimonial-one__trustpilot-star-icon"><img src="{{ asset('assets/images/icon/star-icon.png') }}" alt=""></div></li>
+                                                        <li><div class="testimonial-one__trustpilot-star-icon"><img src="{{ asset('assets/images/icon/star-icon.png') }}" alt=""></div></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -1468,70 +1223,42 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- Testimoni 2 -->
                             <div class="item">
                                 <div class="testimonial-one__single">
                                     <div class="testimonial-one__img-box">
                                         <div class="testimonial-one__img">
-                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-2.jpg') }}"
-                                                alt="">
+                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-2.jpg') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="testimonial-one__content">
-                                        <h4 class="testimonial-one__title">!Great Agency It Agency</h4>
-                                        <p class="testimonial-one__text">“From the initial consultation to the final
-                                            product, every step was handled with professionalism and care. The final
-                                            result exceeded our expectations and has significantly improved our
-                                            operations"</p>
+                                        <h4 class="testimonial-one__title">{{ __('home.testimonial.testi2.title') }}</h4>
+                                        <p class="testimonial-one__text">{{ __('home.testimonial.testi2.text') }}</p>
                                         <div class="testimonial-one__bottom">
                                             <div class="testimonial-one__quote-and-client-info">
                                                 <div class="testimonial-one__quote">
                                                     <span class="icon-left"></span>
                                                 </div>
                                                 <div class="testimonial-one__client-info">
-                                                    <p class="testimonial-one__client-sub-title">Marketing Manager
-                                                    </p>
-                                                    <h3 class="testimonial-one__client-name"><a
-                                                            href="#">Collins Munro</a></h3>
+                                                    <p class="testimonial-one__client-sub-title">{{ __('home.testimonial.testi2.role') }}</p>
+                                                    <h3 class="testimonial-one__client-name">
+                                                        <a href="#">{{ __('home.testimonial.testi2.name') }}</a>
+                                                    </h3>
                                                 </div>
                                             </div>
                                             <div class="testimonial-one__trustpilot-box">
                                                 <div class="testimonial-one__trustpilot-logo">
-                                                    <img src="{{ asset('assets/images/resources/trustpilot-logo.png') }}"
-                                                        alt="">
+                                                    <img src="{{ asset('assets/images/resources/trustpilot-logo.png') }}" alt="">
                                                 </div>
                                                 <div class="testimonial-one__trustpilot-text-and-star">
-                                                    <p class="testimonial-one__trustpilot-text">5.0 Excellent </p>
+                                                    <p class="testimonial-one__trustpilot-text">5.0 Excellent</p>
                                                     <ul class="list-unstyled testimonial-one__trustpilot-star-list">
-                                                        <li>
-                                                            <div class="testimonial-one__trustpilot-star-icon">
-                                                                <img src="{{ asset('assets/images/icon/star-icon.png') }}"
-                                                                    alt="">
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="testimonial-one__trustpilot-star-icon">
-                                                                <img src="{{ asset('assets/images/icon/star-icon.png') }}"
-                                                                    alt="">
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="testimonial-one__trustpilot-star-icon">
-                                                                <img src="{{ asset('assets/images/icon/star-icon.png') }}"
-                                                                    alt="">
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="testimonial-one__trustpilot-star-icon">
-                                                                <img src="{{ asset('assets/images/icon/star-icon.png') }}"
-                                                                    alt="">
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="testimonial-one__trustpilot-star-icon">
-                                                                <img src="{{ asset('assets/images/icon/star-icon.png') }}"
-                                                                    alt="">
-                                                            </div>
-                                                        </li>
+                                                        <li><div class="testimonial-one__trustpilot-star-icon"><img src="{{ asset('assets/images/icon/star-icon.png') }}" alt=""></div></li>
+                                                        <li><div class="testimonial-one__trustpilot-star-icon"><img src="{{ asset('assets/images/icon/star-icon.png') }}" alt=""></div></li>
+                                                        <li><div class="testimonial-one__trustpilot-star-icon"><img src="{{ asset('assets/images/icon/star-icon.png') }}" alt=""></div></li>
+                                                        <li><div class="testimonial-one__trustpilot-star-icon"><img src="{{ asset('assets/images/icon/star-icon.png') }}" alt=""></div></li>
+                                                        <li><div class="testimonial-one__trustpilot-star-icon"><img src="{{ asset('assets/images/icon/star-icon.png') }}" alt=""></div></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -1539,70 +1266,42 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- Testimoni 3 -->
                             <div class="item">
                                 <div class="testimonial-one__single">
                                     <div class="testimonial-one__img-box">
                                         <div class="testimonial-one__img">
-                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-3.jpg') }}"
-                                                alt="">
+                                            <img src="{{ asset('assets/images/testimonial/testimonial-1-3.jpg') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="testimonial-one__content">
-                                        <h4 class="testimonial-one__title">!Great Agency It Agency</h4>
-                                        <p class="testimonial-one__text">“From the initial consultation to the final
-                                            product, every step was handled with professionalism and care. The final
-                                            result exceeded our expectations and has significantly improved our
-                                            operations"</p>
+                                        <h4 class="testimonial-one__title">{{ __('home.testimonial.testi3.title') }}</h4>
+                                        <p class="testimonial-one__text">{{ __('home.testimonial.testi3.text') }}</p>
                                         <div class="testimonial-one__bottom">
                                             <div class="testimonial-one__quote-and-client-info">
                                                 <div class="testimonial-one__quote">
                                                     <span class="icon-left"></span>
                                                 </div>
                                                 <div class="testimonial-one__client-info">
-                                                    <p class="testimonial-one__client-sub-title">Marketing Manager
-                                                    </p>
-                                                    <h3 class="testimonial-one__client-name"><a
-                                                            href="#">Sarah James</a></h3>
+                                                    <p class="testimonial-one__client-sub-title">{{ __('home.testimonial.testi3.role') }}</p>
+                                                    <h3 class="testimonial-one__client-name">
+                                                        <a href="#">{{ __('home.testimonial.testi3.name') }}</a>
+                                                    </h3>
                                                 </div>
                                             </div>
                                             <div class="testimonial-one__trustpilot-box">
                                                 <div class="testimonial-one__trustpilot-logo">
-                                                    <img src="{{ asset('assets/images/resources/trustpilot-logo.png') }}"
-                                                        alt="">
+                                                    <img src="{{ asset('assets/images/resources/trustpilot-logo.png') }}" alt="">
                                                 </div>
                                                 <div class="testimonial-one__trustpilot-text-and-star">
-                                                    <p class="testimonial-one__trustpilot-text">5.0 Excellent </p>
+                                                    <p class="testimonial-one__trustpilot-text">5.0 Excellent</p>
                                                     <ul class="list-unstyled testimonial-one__trustpilot-star-list">
-                                                        <li>
-                                                            <div class="testimonial-one__trustpilot-star-icon">
-                                                                <img src="{{ asset('assets/images/icon/star-icon.png') }}"
-                                                                    alt="">
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="testimonial-one__trustpilot-star-icon">
-                                                                <img src="{{ asset('assets/images/icon/star-icon.png') }}"
-                                                                    alt="">
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="testimonial-one__trustpilot-star-icon">
-                                                                <img src="{{ asset('assets/images/icon/star-icon.png') }}"
-                                                                    alt="">
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="testimonial-one__trustpilot-star-icon">
-                                                                <img src="{{ asset('assets/images/icon/star-icon.png') }}"
-                                                                    alt="">
-                                                            </div>
-                                                        </li>
-                                                        <li>
-                                                            <div class="testimonial-one__trustpilot-star-icon">
-                                                                <img src="{{ asset('assets/images/icon/star-icon.png') }}"
-                                                                    alt="">
-                                                            </div>
-                                                        </li>
+                                                        <li><div class="testimonial-one__trustpilot-star-icon"><img src="{{ asset('assets/images/icon/star-icon.png') }}" alt=""></div></li>
+                                                        <li><div class="testimonial-one__trustpilot-star-icon"><img src="{{ asset('assets/images/icon/star-icon.png') }}" alt=""></div></li>
+                                                        <li><div class="testimonial-one__trustpilot-star-icon"><img src="{{ asset('assets/images/icon/star-icon.png') }}" alt=""></div></li>
+                                                        <li><div class="testimonial-one__trustpilot-star-icon"><img src="{{ asset('assets/images/icon/star-icon.png') }}" alt=""></div></li>
+                                                        <li><div class="testimonial-one__trustpilot-star-icon"><img src="{{ asset('assets/images/icon/star-icon.png') }}" alt=""></div></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -1610,11 +1309,13 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+
+                        </div> <!-- carousel -->
                     </div>
                 </div>
             </div>
         </div>
+
         <!--Brand One Start -->
         <div class="brand-one">
             <div class="container">

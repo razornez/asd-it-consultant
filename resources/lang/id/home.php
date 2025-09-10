@@ -123,4 +123,103 @@ return [
             'maintenance_text' => 'Post-release monitoring dengan SLA-based support, incident management, performance tuning, serta continuous improvement. Semua untuk menjaga layanan Anda tetap secure, stable, dan scalable.',
         ],
     ],
+    'services' => [
+        'frontend' => 'Pengembangan Aplikasi Web',
+        'uiux' => 'Desain UI/UX',
+        'mobile' => 'Pengembangan Aplikasi Mobile',
+        'web3d' => 'WebGL & Website Interaktif 3D',
+        'erp' => 'Enterprise Resource Planning (ERP)',
+        'strategy' => 'Strategi & Manajemen IT',
+        'seo' => 'SEO & Visibilitas Digital',
+        'simrs' => 'Sistem Informasi Rumah Sakit (SIM RS)',
+        'simschool' => 'Sistem Informasi Sekolah (SIM School)',
+        'digital' => 'Digital Marketing & Branding',
+    ],
+    'about_us_title' => 'Tentang Kami',
+    'about_us_heading' => 'Dari Passion Menjadi Purpose: Kisah Perjalanan IT Kami',
+    'about_us_text1' => 'Perusahaan ini didirikan oleh Iwan Kurniawan, seorang pakar IT dengan pengalaman lebih dari 10 tahun. Sebagai mahasiswa S2 di ITB STEI sekaligus software developer berpengalaman, ia telah berkarya di industri IT baik di dalam negeri maupun di Eropa. Berbekal pengalaman tersebut, Iwan memahami betul best practices dunia IT dan meyakini bahwa software tidak boleh dibuat hanya untuk sekadar teknologi, tetapi harus benar-benar memberi manfaat bagi penggunanya.',
+    'about_us_text2' => 'Dengan misi itu, kami berkomitmen membantu bisnis dan organisasi membangun solusi digital yang praktis, andal, dan bermakna. Kami tidak hanya menulis kode; kami menciptakan solusi yang memberdayakan.',
+    'about_experience_years' => 'Tahun Pengalaman',
+    'about_highlight1_title' => 'Awal yang Sederhana',
+    'about_highlight1_text' => 'Berawal dari visi untuk membuat teknologi lebih bermanfaat dan bisa diakses oleh semua orang.',
+    'about_highlight2_title' => 'Didorong oleh Purpose',
+    'about_highlight2_text' => 'Kami percaya software terbaik adalah yang mampu menyelesaikan masalah nyata dan meningkatkan kehidupan penggunanya.',
+    'portfolio_title' => 'Portofolio',
+    'portfolio_subtitle_line1' => 'Jelajahi Perjalanan',
+    'portfolio_subtitle_line2' => 'Kreatif Kami',
+    'portfolio_subtitle_line3' => 'Menciptakan Sukses Lewat Inovasi',
+
+    'portfolio_3d_portfolio' => 'Portofolio Web 3D',
+    'portfolio_3d_portfolio_desc' => 'Pengalaman web 3D interaktif yang imersif dengan storytelling unik.',
+
+    'portfolio_hutri' => 'Pengalaman 3D Hari Kemerdekaan',
+    'portfolio_hutri_desc' => 'Website interaktif spesial dengan tema HUT RI, dibangun dengan WebGL & Three.js.',
+
+    'portfolio_treehouse' => 'Tree House 3D World',
+    'portfolio_treehouse_desc' => 'Diorama 3D playful dengan storytelling dan interaktivitas.',
+
+    'portfolio_simrs' => 'Sistem Informasi Rumah Sakit (SIM RS)',
+    'portfolio_simrs_desc' => 'Sistem komprehensif untuk manajemen pasien, dokter, dan fasilitas rumah sakit.',
+
+    'portfolio_school' => 'Sistem Informasi Sekolah (SIM Sekolah)',
+    'portfolio_school_desc' => 'Sistem manajemen pendidikan untuk sekolah dan universitas.',
+
+    'portfolio_inventory' => 'Sistem Manajemen Inventori',
+    'portfolio_inventory_desc' => 'Aplikasi berbasis web untuk manajemen stok dan gudang.',
+
+    'portfolio_mobileapp' => 'Pengembangan Aplikasi Mobile',
+    'portfolio_mobileapp_desc' => 'Aplikasi mobile cross-platform dengan UI modern dan performa mulus.',
+
+    'portfolio_erp' => 'Enterprise Resource Planning (ERP)',
+    'portfolio_erp_desc' => 'Solusi ERP terintegrasi untuk keuangan, HR, dan operasional.',
+    'contact' => [
+        'form_title' => 'Bagaimana Kami Bisa Membantu?',
+        'name' => 'Nama Lengkap',
+        'email' => 'Alamat Email',
+        'phone' => 'Nomor Telepon',
+        'subject' => 'Subjek',
+        'message' => 'Pesan',
+        'submit' => 'Kirim Sekarang',
+
+        'placeholder_name' => 'Nama lengkap Anda',
+        'placeholder_email' => 'email@domain.com',
+        'placeholder_phone' => '+62 xxx',
+        'placeholder_subject' => 'Subjek Anda',
+        'placeholder_message' => 'Tulis pesan Anda di sini...',
+
+        'tagline' => 'Hubungi Kami',
+        'title' => 'Mulai Percakapan – Kapanpun',
+        'description' => "Kami siap mendengarkan! Jangan ragu untuk menghubungi kami jika ada pertanyaan, feedback, atau sekadar menyapa.",
+        'address_title' => 'Alamat',
+        'email_title' => 'Email Kami',
+        'phone_title' => 'Kontak',
+        'address_value' => 'D16 Pondok Sabilulungan, Banjaran St., Bandung, Indonesia',
+        'email_value' => 'cs@anugrahdigital.co.id',
+        'phone_value' => '+62 858 8996 3822',
+    ],
+    'testimonial' => [
+        'section_tagline' => 'Testimoni Klien',
+        'title' => 'Apa Kata Klien Tentang Kami',
+
+        'testi1' => [
+            'title' => 'Proses Lancar, Hasil Mantap',
+            'text' => '"Awalnya sempat ragu, tapi ternyata prosesnya enak banget, timnya komunikatif dan hasilnya sesuai harapan. Web kami sekarang jauh lebih rapi dan gampang di-maintain."',
+            'role' => 'Owner Toko Online',
+            'name' => 'Andi Pratama',
+        ],
+
+        'testi2' => [
+            'title' => 'Partner yang Bisa Diandalkan',
+            'text' => '"Ngerjain aplikasi internal kantor dengan deadline mepet, tapi tim tetap tenang dan hasilnya bagus. Sampai sekarang masih dipakai tiap hari."',
+            'role' => 'HR Manager',
+            'name' => 'Rina Wijayanti',
+        ],
+
+        'testi3' => [
+            'title' => 'Rasanya Seperti Dibantu Teman',
+            'text' => '"Bukan cuma soal teknis, mereka juga kasih insight soal bisnis. Jadi rasanya kayak punya partner, bukan sekadar vendor."',
+            'role' => 'Startup Founder',
+            'name' => 'Budi Santoso',
+        ],
+    ],
 ];

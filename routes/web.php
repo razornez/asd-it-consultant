@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PagesController;
-
+use App\Http\Controllers\ContactController;
 
 // Group route untuk bahasa
 Route::get('/{locale?}', function ($locale = 'id') {
@@ -13,6 +13,8 @@ Route::get('/{locale?}', function ($locale = 'id') {
     App::setLocale($locale);
     return app(HomeController::class)->index();
 })->name('index');
+
+Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact.submit');
 
 
 // Pages Routes 
