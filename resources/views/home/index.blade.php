@@ -528,12 +528,10 @@
             <div class="section-title text-center sec-title-animation animation-style1">
                 <div class="section-title__tagline-box">
                     <div class="section-title__tagline-shape-1"></div>
-                    <span class="section-title__tagline">Why Choose Us</span>
+                    <span class="section-title__tagline">{{ __('home.why_choose_us') }}</span>
                     <div class="section-title__tagline-shape-2"></div>
                 </div>
-                <h2 class="section-title__title title-animation">Your Business with <span>Reliable &
-                    </span><br><span>Future-Ready</span>
-                    IT Solutions</h2>
+                <h2 class="section-title__title title-animation">{!! __('home.why_choose_us_title') !!}</h2>
             </div>
             <div class="row">
                 <div class="col-xl-3 wow fadeInLeft" data-wow-delay="100ms">
@@ -542,22 +540,17 @@
                             <div class="why-choose-three__icon">
                                 <span class="icon-quality"></span>
                             </div>
-                            <h3 class="why-choose-three__title"> Unmatched Quality</h3>
+                            <h3 class="why-choose-three__title"> {{ __('home.why_1.title') }}</h3>
                             <div class="why-choose-three__bdr"></div>
-                            <p class="why-choose-three__text">We deliver exceptional products and services that
-                                exceed
-                                expectations every time.</p>
+                            <p class="why-choose-three__text">{{ __('home.why_1.subtitle') }}</p>
                         </div>
                         <div class="why-choose-three__single">
                             <div class="why-choose-three__icon">
                                 <span class="icon-team"></span>
                             </div>
-                            <h3 class="why-choose-three__title">Trusted Expertise</h3>
+                            <h3 class="why-choose-three__title"> {{ __('home.why_2.title') }}</h3>
                             <div class="why-choose-three__bdr"></div>
-                            <p class="why-choose-three__text">Backed by years of experience and a proven track
-                                record,
-                                we
-                                are your reliable partner for success.</p>
+                            <p class="why-choose-three__text">{{ __('home.why_2.subtitle') }}</p>
                         </div>
                     </div>
                 </div>
@@ -579,19 +572,17 @@
                             <div class="why-choose-three__icon">
                                 <span class="icon-customer-centricity"></span>
                             </div>
-                            <h3 class="why-choose-three__title"> User-Centric Approach</h3>
+                            <h3 class="why-choose-three__title"> {{ __('home.why_3.title') }}</h3>
                             <div class="why-choose-three__bdr"></div>
-                            <p class="why-choose-three__text">Your satisfaction is our priority, and we tailor
-                                solutions to meet your unique needs. Your happiness comes first.</p>
+                            <p class="why-choose-three__text">{{ __('home.why_3.subtitle') }}</p>
                         </div>
                         <div class="why-choose-three__single">
                             <div class="why-choose-three__icon">
                                 <span class="icon-support"></span>
                             </div>
-                            <h3 class="why-choose-three__title">Trusted by Many</h3>
+                            <h3 class="why-choose-three__title"> {{ __('home.why_4.title') }}</h3>
                             <div class="why-choose-three__bdr"></div>
-                            <p class="why-choose-three__text">We have built a strong reputation over the years by
-                                consistently delivering excellent results.</p>
+                            <p class="why-choose-three__text">{{ __('home.why_4.subtitle') }}</p>
                         </div>
                     </div>
                 </div>
@@ -616,10 +607,10 @@
                         </div>
                         <div class="counter-two__content">
                             <div class="counter-two__count-box">
-                                <h3 class="odometer" data-count="120">00</h3>
+                                <h3 class="odometer" data-count="120">{{ __('home.award_total') }}</h3>
                                 <span> </span>
                             </div>
-                            <p class="counter-two__text">Creative Plus award</p>
+                            <p class="counter-two__text">{{ __('home.award_title') }}</p>
                         </div>
                     </div>
                 </div>
@@ -634,10 +625,10 @@
                         </div>
                         <div class="counter-two__content">
                             <div class="counter-two__count-box">
-                                <h3 class="odometer" data-count="300">00</h3>
+                                <h3 class="odometer" data-count="300">{{ __('home.team_total') }}</h3>
                                 <span> </span>
                             </div>
-                            <p class="counter-two__text">Expert Team Members</p>
+                            <p class="counter-two__text">{{ __('home.team_title') }}</p>
                         </div>
                     </div>
                 </div>
@@ -652,10 +643,10 @@
                         </div>
                         <div class="counter-two__content">
                             <div class="counter-two__count-box">
-                                <h3 class="odometer" data-count="20">00</h3>
+                                <h3 class="odometer" data-count="20">{{ __('home.client_total') }}</h3>
                                 <span>M</span>
                             </div>
-                            <p class="counter-two__text">Happy Clients Review</p>
+                            <p class="counter-two__text">{{ __('home.client_title') }}</p>
                         </div>
                     </div>
                 </div>
@@ -670,10 +661,10 @@
                         </div>
                         <div class="counter-two__content">
                             <div class="counter-two__count-box">
-                                <h3 class="odometer" data-count="1.5">00</h3>
+                                <h3 class="odometer" data-count="1.5">{{ __('home.project_total') }}</h3>
                                 <span>K</span>
                             </div>
-                            <p class="counter-two__text">Project Completed</p>
+                            <p class="counter-two__text">{{ __('home.project_title') }}</p>
                         </div>
                     </div>
                 </div>
@@ -694,58 +685,88 @@
             style="background-image: url({{ asset('assets/images/shapes/process-one-bg-shape.png') }});"></div>
         <div class="container">
             <div class="row">
-                <div class="col-xl-5">
-                    <div class="process-one__left">
-                        <div class="section-title text-left sec-title-animation animation-style2">
-                            <div class="section-title__tagline-box">
-                                <div class="section-title__tagline-shape-1"></div>
-                                <span class="section-title__tagline">Working Process</span>
-                                <div class="section-title__tagline-shape-2"></div>
+            <div class="col-xl-5">
+                <div class="process-one__left">
+                    <div class="section-title text-left sec-title-animation animation-style2">
+                        <div class="section-title__tagline-box">
+                            <div class="section-title__tagline-shape-1"></div>
+                            <span class="section-title__tagline">{{ __('home.working_proses_title') }}</span>
+                            <div class="section-title__tagline-shape-2"></div>
+                        </div>
+
+                        {{-- Judul hero (mengandung <span> untuk styling) --}}
+                        <h2 class="section-title__title title-animation">
+                            {!! __('home.process.title') !!}
+                        </h2>
+                    </div>
+
+                    {{-- Subtitle/deskripsi singkat --}}
+                    <p class="process-one__text">
+                        {{ __('home.process.subtitle') }}
+                    </p>
+
+                    <div class="process-one__btn-box">
+                        <a href="{{ route('contact', ['locale' => app()->getLocale()]) }}" class="thm-btn">
+                            {{ __('home.process.cta') }} <span class="icon-right-arrow"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-7">
+                <div class="process-one__right">
+                    <ul class="process-one__process-list list-unstyled">
+                        <li>
+                            <div class="process-one__process-count"></div>
+                            <div class="process-one__process-content">
+                                <h3 class="process-one__process-title">{{ __('home.process.steps.discovery_title') }}</h3>
+                                <p class="process-one__process-text">{{ __('home.process.steps.discovery_text') }}</p>
                             </div>
-                            <h2 class="section-title__title title-animation">How We've
-                                <span>Empowered</span><br><span>Businesses with Innovative</span><br>Tech Solutions
-                            </h2>
-                        </div>
-                        <p class="process-one__text">From personalized solutions to expert<br> execution, we
-                            prioritize
-                            quality, reliability, and<br> customer satisfaction </p>
-                        <div class="process-one__btn-box">
-                            <a href="#" class="thm-btn">Get in Touch<span class="icon-right-arrow"></span></a>
-                        </div>
-                    </div>
+                        </li>
+
+                        <li>
+                            <div class="process-one__process-content">
+                                <h3 class="process-one__process-title">{{ __('home.process.steps.design_title') }}</h3>
+                                <p class="process-one__process-text">{{ __('home.process.steps.design_text') }}</p>
+                            </div>
+                            <div class="process-one__process-count"></div>
+                        </li>
+
+                        <li>
+                            <div class="process-one__process-count"></div>
+                            <div class="process-one__process-content">
+                                <h3 class="process-one__process-title">{{ __('home.process.steps.development_title') }}</h3>
+                                <p class="process-one__process-text">{{ __('home.process.steps.development_text') }}</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="process-one__process-content">
+                                <h3 class="process-one__process-title">{{ __('home.process.steps.quality_title') }}</h3>
+                                <p class="process-one__process-text">{{ __('home.process.steps.quality_text') }}</p>
+                            </div>
+                            <div class="process-one__process-count"></div>
+                        </li>
+
+                        <li>
+                            <div class="process-one__process-count"></div>
+                            <div class="process-one__process-content">
+                                <h3 class="process-one__process-title">{{ __('home.process.steps.release_title') }}</h3>
+                                <p class="process-one__process-text">{{ __('home.process.steps.release_text') }}</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="process-one__process-content">
+                                <h3 class="process-one__process-title">{{ __('home.process.steps.maintenance_title') }}</h3>
+                                <p class="process-one__process-text">{{ __('home.process.steps.maintenance_text') }}</p>
+                            </div>
+                            <div class="process-one__process-count"></div>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-xl-7">
-                    <div class="process-one__right">
-                        <ul class="process-one__process-list list-unstyled">
-                            <li>
-                                <div class="process-one__process-count"></div>
-                                <div class="process-one__process-content">
-                                    <h3 class="process-one__process-title">Discovery & Strategy</h3>
-                                    <p class="process-one__process-text">We analyze your business needs,<br>
-                                        identify
-                                        challenges, and craft a<br> strategic roadmap for the best IT<br> solutions.
-                                    </p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="process-one__process-content">
-                                    <h3 class="process-one__process-title">Development</h3>
-                                    <p class="process-one__process-text">Our expert team designs, develops,<br> and
-                                        integrates cutting-edge<br> technology tailored to your goals.</p>
-                                </div>
-                                <div class="process-one__process-count"></div>
-                            </li>
-                            <li>
-                                <div class="process-one__process-count"></div>
-                                <div class="process-one__process-content">
-                                    <h3 class="process-one__process-title">Optimization & Support</h3>
-                                    <p class="process-one__process-text">We ensure seamless performance with<br>
-                                        continuous improvements,<br> maintenance, and dedicated support.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            </div>
+
             </div>
         </div>
     </section>

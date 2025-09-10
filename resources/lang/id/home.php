@@ -71,5 +71,56 @@ return [
         'service_1' => 'Implementasi Sistem ERP',
         'service_2' => 'Integrasi Modul & Kustomisasi',
         'service_3' => 'Pelatihan & Dukungan Pengguna',
-    ]
+    ],
+    'why_choose_us_title' => 'Transformasi Bisnis Anda dengan <br> Solusi TI <span>yang Siap Masa Depan</span>',
+    'why_1' => [ 
+        'title' => 'Keunggulan Terbukti',
+        'subtitle' => 'Kami tidak hanya memenuhi, tetapi melampaui ekspektasi. Komitmen kami terhadap kualitas memastikan setiap solusi yang kami berikan andal dan kokoh.',
+    ],
+    'why_2' => [ 
+        'title' => 'Mitra Ahli',
+        'subtitle' => 'Lebih dari sekadar penyedia layanan, kami adalah mitra strategis Anda. Pengetahuan industri yang mendalam dan pengalaman luas kami akan memandu Anda menuju pertumbuhan yang berkelanjutan.',
+    ],
+    'why_3' => [ 
+        'title' => 'Solusi yang Disesuaikan',
+        'subtitle' => 'Bisnis Anda unik, begitu juga solusi kami. Kami meluangkan waktu untuk memahami tantangan dan tujuan spesifik Anda, menciptakan solusi yang sangat cocok untuk Anda.',
+    ],
+    'why_4' => [ 
+        'title' => 'Hasil yang Dapat Dipercaya',
+        'subtitle' => 'Reputasi kami dibangun di atas kesuksesan klien kami. Kami memberikan hasil yang terukur yang mendorong nilai bisnis nyata dan kesuksesan jangka panjang.',
+    ],
+    'award_total' => '120+',
+    'award_title' => 'Penghargaan & Pengakuan Industri',
+    'team_total' => '23+',
+    'team_title' => 'Tim Ahli Berpengalaman',
+    'client_total' => '72+',
+    'client_title' => 'Klien yang Puas',
+    'project_total' => '95+',
+    'project_title' => 'Proyek Berhasil Diselesaikan',
+    'working_proses_title' => 'Bagaimana Kami Bekerja',
+    'process' => [
+        'title' => 'Konsultan <span>IT Profesional</span> untuk Pengembangan<br> Perangkat Lunak yang Aman dan Berkualitas Tinggi',
+        'subtitle' => 'Mulai dari analisis bisnis hingga dukungan jangka panjang, kami menjalankan SDLC profesional: strategi, desain, pengembangan, CI/CD, pengujian keamanan dan pemeliharaan.',
+        'cta' => 'Hubungi Kami',
+
+        'steps' => [
+            'discovery_title' => 'Discovery & Strategi',
+            'discovery_text' => 'Kami mulai dengan workshop bersama stakeholder dan mapping business process untuk menyusun goals & priorities. Dari sini, kami pilih model development yang tepat (Agile, Scrum, atau Waterfall) dan menyusun roadmap yang jelas.',
+
+            'design_title' => 'Metodologi & Desain',
+            'design_text' => 'Kolaborasi brainstorming, solution architecture, dan rapid UI/UX prototyping. Semua dilakukan untuk memastikan alignment sebelum coding dimulai: wireframe, interactive mockup, hingga usability testing.',
+
+            'development_title' => 'Development & Collaboration',
+            'development_text' => 'Modular implementation dengan task management di tools profesional seperti Jira, daily standup, peer code review, dan smart branching strategy. Setiap perubahan otomatis diproses lewat CI pipeline agar delivery tetap cepat dan reliable.',
+
+            'quality_title' => 'Quality & Security',
+            'quality_text' => 'Kami terapkan strict quality gates: unit & integration test, automated test suite, SAST & dependency scanning (OSS tools), hingga static analysis (contoh: Fortify) dalam setiap CI workflow.',
+
+            'release_title' => 'Release & Validation',
+            'release_text' => 'Controlled release ke staging environment, dilanjut SIT (System Integration Testing) & UAT (User Acceptance Testing) bersama stakeholder. Automated regression testing dan penetration test pihak ketiga memastikan produk siap ke production.',
+
+            'maintenance_title' => 'Maintenance & Support',
+            'maintenance_text' => 'Post-release monitoring dengan SLA-based support, incident management, performance tuning, serta continuous improvement. Semua untuk menjaga layanan Anda tetap secure, stable, dan scalable.',
+        ],
+    ],
 ];
