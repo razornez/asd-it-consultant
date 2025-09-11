@@ -22,7 +22,7 @@
                                     <i class="icon-search-mail"></i>
                                 </div>
                                 <div class="text">
-                                    <p><a href="mailto:cs@anugrahdigital.co.id">cs@anugrahdigital.co.id</a>
+                                    <p><a href="mailto:{{ __('home.contact.email_value') }}">{{ __('home.contact.email_value') }}</a>
                                     </p>
                                 </div>
                             </li>
@@ -31,13 +31,13 @@
                                     <i class="icon-phone-call"></i>
                                 </div>
                                 <div class="text">
-                                    <p><a href="tel:1212345678900">+12 (123) 456 78900</a></p>
+                                    <p><a href="tel:{{ __('home.contact.wa_value') }}">{{ __('home.contact.phone_value') }}</a></p>
                                 </div>
                             </li>
                         </ul>
                         <ul class="list-unstyled main-menu__top-menu">
                             <li><a href="#">{{ __('home.menu.help') }}</a></li>
-                            <li><a href="{{ route('contact') }}">{{ __('home.menu.support') }}</a></li>
+                            <li><a href="#">{{ __('home.menu.support') }}</a></li>
                             <li><a href="#">{{ __('home.menu.faqs') }}</a></li>
                         </ul>
                     </div>
@@ -81,7 +81,7 @@
                                         class="main-menu__search searcher-toggler-box icon-search-interface-symbol"></a>
                                 </div> -->
                                 <div class="main-menu__btn-box">
-                                    <a href="{{ route('contact') }}" class="thm-btn">{{ __('home.menu.contact_title') }}<span
+                                    <a href="https://wa.me/{{ __('home.contact.wa_value') }}?text={{ urlencode(__('home.whatsapp_message')) }}" target="_blank" class="thm-btn">{{ __('home.menu.contact_title') }}<span
                                             class="icon-right-arrow"></span></a>
                                 </div>
                             </div>

@@ -24,7 +24,7 @@ return [
 
         'title2' => 'Konsultan <span>IT Modern</span> <br>
                     Berpengalaman <span>10+ Tahun</span> <br>
-                    dengan Solusi <span>Efektif & Tepat Guna</span>',
+                    dengan Solusi <span>Efektif & Tepat</span>',
         'tagline2' => 'Lebih dari 10 tahun mendampingi berbagai bisnis, <br> menghadirkan solusi IT yang efisien, aman, <br> dan sesuai kebutuhan Anda.',
     ],
     'get_started' => 'Mulai Sekarang',
@@ -196,6 +196,7 @@ return [
         'phone_title' => 'Kontak',
         'address_value' => 'D16 Pondok Sabilulungan, Banjaran St., Bandung, Indonesia',
         'email_value' => 'cs@anugrahdigital.co.id',
+        'wa_value' => '6285889963822',
         'phone_value' => '+62 858 8996 3822',
     ],
     'testimonial' => [

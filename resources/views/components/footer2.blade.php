@@ -22,7 +22,7 @@
                     <p class="site-footer__top-text">{{ __('home.tagline') }}</p>
                 </div>
                 <div class="site-footer__btn-box">
-                <a href="https://wa.me/6285889963822?text={{ urlencode(__('home.whatsapp_message')) }}" 
+                <a href="https://wa.me/{{ __('home.contact.wa_value') }}?text={{ urlencode(__('home.whatsapp_message')) }}" 
                     target="_blank" 
                     class="site-footer__btn">
                         {{ __('home.get_in_touch') }}

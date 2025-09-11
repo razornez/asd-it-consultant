@@ -54,20 +54,20 @@
                                     <p class="main-slider__text">{!! __('home.hero.tagline') !!}</p>
                                     <div class="main-slider__btn-and-trustpilot-box">
                                         <div class="main-slider__btn-box">
-                                            <a href="{{ route('contact') }}" class="thm-btn">Get Started<span
+                                            <a href="https://wa.me/{{ __('home.contact.wa_value') }}?text={{ urlencode(__('home.whatsapp_message')) }}" target="_blank" class="thm-btn">{{ __('home.get_started') }}<span
                                                     class="icon-right-arrow"></span></a>
                                         </div>
                                         <div class="main-slider__trustpilot-box">
                                             <ul class="list-unstyled main-slider__trustpilot-img-list">
                                                 <li>
                                                     <div class="main-slider__trustpilot-img">
-                                                        <img src="{{ asset('assets/images/resources/main-slider-trustpilot-img-1.jpg') }}"
+                                                        <img src="{{ asset('assets/images/resources/main-slider-trustpilot-img-1.png') }}"
                                                             alt="">
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="main-slider__trustpilot-img">
-                                                        <img src="{{ asset('assets/images/resources/main-slider-trustpilot-img-2.jpg') }}"
+                                                        <img src="{{ asset('assets/images/resources/main-slider-trustpilot-img-2.png') }}"
                                                             alt="">
                                                     </div>
                                                 </li>
@@ -80,17 +80,17 @@
                                                 <div class="main-slider__trustpilot-rating-review">
                                                     <p class="main-slider__trustpilot-rating">5.0 Excellent</p>
                                                     <p class="main-slider__trustpilot-review">Reviews <span class="odometer"
-                                                            data-count="4170"></span> </p>
+                                                            data-count="100"></span>+ </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="main-slider__img">
-                                        <img src="{{ asset('assets/images/resources/main-slider-img-1.png') }}"
+                                        <img src="{{ asset('assets/images/resources/webp/main-slider-img-1.webp') }}"
                                             alt="">
                                     </div>
                                     <div class="main-slider__video-link">
-                                        <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
+                                        <a href="https://razornez.net/" class="video-popup">
                                             <div class="main-slider__video-icon">
                                                 <span class="fa fa-play"></span>
                                                 <i class="ripple"></i>
@@ -172,11 +172,11 @@
                                         </div>
                                     </div>
                                     <div class="main-slider__img">
-                                        <img src="{{ asset('assets/images/resources/main-slider-img-1.png') }}"
+                                        <img src="{{ asset('assets/images/resources/webp/main-slider-img-1.webp') }}"
                                             alt="">
                                     </div>
                                     <div class="main-slider__video-link">
-                                        <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
+                                        <a href="https://hutri.vercel.app/" class="video-popup">
                                             <div class="main-slider__video-icon">
                                                 <span class="fa fa-play"></span>
                                                 <i class="ripple"></i>
@@ -256,11 +256,11 @@
                                         </div>
                                     </div>
                                     <div class="main-slider__img">
-                                        <img src="{{ asset('assets/images/resources/main-slider-img-1.png') }}"
+                                        <img src="{{ asset('assets/images/resources/webp/main-slider-img-1.webp') }}"
                                             alt="">
                                     </div>
                                     <div class="main-slider__video-link">
-                                        <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
+                                        <a href="https://razornez.net/" class="video-popup">
                                             <div class="main-slider__video-icon">
                                                 <span class="fa fa-play"></span>
                                                 <i class="ripple"></i>
@@ -556,14 +556,7 @@
                 </div>
                 <div class="col-xl-6 wow fadeInUp" data-wow-delay="200ms">
                     <div class="why-choose-three__img">
-                        <iframe 
-                            src="https://razornez.net" 
-                            width="100%" 
-                            height="555" 
-                            frameborder="0" 
-                            style="border:0; border-radius:8px; overflow:hidden;" 
-                            allowfullscreen>
-                        </iframe>
+                        <img src="{{ asset('assets/images/resources/why-choose-three-img.png') }}" alt="">
                     </div>
                 </div>
                 <div class="col-xl-3 wow fadeInRight" data-wow-delay="100ms">
@@ -706,7 +699,7 @@
                     </p>
 
                     <div class="process-one__btn-box">
-                        <a href="{{ route('contact', ['locale' => app()->getLocale()]) }}" class="thm-btn">
+                        <a href="https://wa.me/{{ __('home.contact.wa_value') }}?text={{ urlencode(__('home.whatsapp_message')) }}" target="_blank" class="thm-btn">
                             {{ __('home.process.cta') }} <span class="icon-right-arrow"></span>
                         </a>
                     </div>
