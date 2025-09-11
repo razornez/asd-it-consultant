@@ -17,14 +17,15 @@ return [
     ],
     'subtitle' => 'Delivering Excellence, Every Time',
     'hero' => [
-        'title' => 'Trusted <span>Technology Partner</span> <br>
-                delivering <span>Zero-Bug Systems</span> <br>
-                with <span>Proven Quality</span>',
-        'tagline' => 'Your reliable IT partner, <br> delivering scalable solutions with <br> zero bugs and maximum efficiency.',
-        'title2' => 'Modern <span>IT Consultants</span> <br>
-                with <span>10+ Years Experience</span> <br>
-                delivering <span>Zero-Bug Quality</span>',
-        'tagline2' => 'We combine a decade of expertise, <br> zero-bug solutions, and proven quality <br> to grow your business.',
+        'title' => 'Your <span>Trusted Technology Partner</span> <br>
+            Delivering <span>Proven Quality</span> <br>
+            for <span>Business Growth</span>',
+        'tagline' => 'We help you build reliable and scalable IT solutions <br> that drive long-term success.',
+
+        'title2' => 'Modern <span>IT Consultant</span> <br>
+                    with <span>10+ Years Experience</span> <br>
+                    Delivering <span>Effective Solutions</span>',
+        'tagline2' => 'With over a decade of expertise, <br> we provide secure, efficient, and tailored IT solutions <br> to support your business goals.',
     ],
     'get_started' => 'Get Started',
     'our_service' => 'Our Services',
@@ -217,4 +218,45 @@ return [
             'name' => 'Budi Santoso',
         ],
     ],
+    'brand' => [
+        'trusted' => '100+ Trusted by clients worldwide',
+    ],
+    'tagline' => 'We are the best creative agency worldwide to help brands grow',
+    'get_in_touch' => 'Get In Touch',
+
+    'location_title' => 'Location',
+    'location_address' => 'D16 Pondok Sabilulungan, Banjaran St., Bandung, Indonesia',
+
+    'working_time_title' => 'Working Time',
+    'working_time' => 'Sunday - Monday (Fri - Closed) <br> 10:00 AM - 5:00 PM',
+
+    'contact_title' => 'Contact Us',
+
+    'pages_title' => 'Pages',
+    'pages' => [
+        'home' => 'Home',
+        'about' => 'About Us',
+        'pricing' => 'Pricing',
+        'portfolio' => 'Portfolio',
+        'blogs' => 'Blogs',
+        'careers' => 'Careers',
+    ],
+
+    'support_title' => 'Support',
+    'support' => [
+        'terms' => 'Terms & Condition',
+        'faqs' => 'FAQs',
+        'contact' => 'Contact Us',
+        'not_found' => '404 Page',
+        'live_chat' => 'Live Chat',
+        'services' => 'Our Services',
+    ],
+    'newsletter_title' => 'Newsletter',
+    'newsletter_text' => 'Get the latest SEO tips and software insights straight to your inbox.',
+    'newsletter_placeholder' => 'Enter email address',
+    'newsletter_privacy' => 'By subscribing, you accept the privacy policy',
+    'follow_us' => 'Follow Us:',
+    'copyright' => 'All rights reserved',
+    'get_in_touch' => 'Get In Touch',
+    'whatsapp_message' => 'Hello, I am interested in your IT Consultant services.',
 ];

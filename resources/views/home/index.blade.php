@@ -822,7 +822,7 @@
     <!-- Sliding Text End -->
 
     <!--About Four Start-->
-    <section class="about-four">
+    <section class="about-four" id="about">
         <div class="about-four__bg-shape"
             style="background-image: url({{ asset('assets/images/shapes/about-four-bg-shape.png') }});"></div>
         <div class="about-four__bg-shape-2"
@@ -1157,7 +1157,7 @@
     <!-- Contact One End -->
 
     <!-- Testimonial One Start -->
-    <section class="testimonial-one">
+    <section class="testimonial-one" id="testimonial">
         <div class="testimonial-one__bg"
             style="background-image: url({{ asset('assets/images/backgrounds/testimonial-one-bg-1.jpg') }});"></div>
         <div class="testimonial-one__shape-1"></div>
@@ -1336,9 +1336,7 @@
                                     </div>
                                 </li>
                             </ul>
-                            <p class="brand-one__text">12K Trusted by clients <br>
-                                worldwide
-                            </p>
+                            <p class="brand-one__text">{{ __('home.brand.trusted') }}</p>
                         </div>
                     </div>
                     <div class="col-xl-9 col-lg-8 col-md-7">

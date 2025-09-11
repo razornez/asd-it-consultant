@@ -17,19 +17,20 @@ return [
     ],
     'subtitle' => 'Menjaga Kualitas, Setiap Saat',
     'hero' => [
-        'title' => 'Mitra <span>Teknologi Terpercaya</span> <br>
-                Garansi <span>Zero Bug</span> <br>
-                dengan <span>Kualitas Terjamin</span>',
-        'tagline' => 'Kami hadir sebagai konsultan IT terpercaya, <br> memberikan solusi tanpa bug dengan <br> kualitas terbaik.',
+       'title' => 'Mitra <span>Teknologi Handal</span> <br>
+            dengan <span>Kualitas Teruji</span> <br>
+            untuk Pertumbuhan <span>Bisnis Anda</span>',
+        'tagline' => 'Kami membantu Anda membangun solusi IT yang andal, <br> terukur, dan berorientasi hasil untuk kesuksesan jangka panjang.',
+
         'title2' => 'Konsultan <span>IT Modern</span> <br>
-                dengan <span>10+ Tahun Pengalaman</span> <br>
-                menghadirkan <span>Solusi Tanpa Bug</span>',
-        'tagline2' => 'Lebih dari 10 tahun pengalaman, <br> solusi tanpa bug, dan kualitas terjamin <br> untuk mendukung bisnis Anda.',
+                    Berpengalaman <span>10+ Tahun</span> <br>
+                    dengan Solusi <span>Efektif & Tepat Guna</span>',
+        'tagline2' => 'Lebih dari 10 tahun mendampingi berbagai bisnis, <br> menghadirkan solusi IT yang efisien, aman, <br> dan sesuai kebutuhan Anda.',
     ],
     'get_started' => 'Mulai Sekarang',
     'our_service' => 'Layanan Kita',
     'read_more' => 'Baca Selengkapnya',
-    'our_service_title' => 'Layanan Terpercaya <span>yang Diciptakan</span> <br> <span>untuk</span> Melebihi Harapan Anda',
+    'our_service_title' => 'Layanan <span>Terpercaya</span> <br> <span>Dirancang</span> untuk Melampaui Ekspektasi Anda',
     'our_service_1' => [ 
         'title' => 'Pengembangan Aplikasi <br> & Integrasi',
         'subtitle' => 'Solusi aplikasi kustom yang dirancang untuk merampingkan proses bisnis dan menghubungkan sistem Anda secara mulus.',
@@ -138,16 +139,16 @@ return [
     'about_us_title' => 'Tentang Kami',
     'about_us_heading' => 'Dari Passion Menjadi Purpose: Kisah Perjalanan IT Kami',
     'about_us_text1' => 'Perusahaan ini didirikan oleh Iwan Kurniawan, seorang pakar IT dengan pengalaman lebih dari 10 tahun. Sebagai mahasiswa S2 di ITB STEI sekaligus software developer berpengalaman, ia telah berkarya di industri IT baik di dalam negeri maupun di Eropa. Berbekal pengalaman tersebut, Iwan memahami betul best practices dunia IT dan meyakini bahwa software tidak boleh dibuat hanya untuk sekadar teknologi, tetapi harus benar-benar memberi manfaat bagi penggunanya.',
-    'about_us_text2' => 'Dengan misi itu, kami berkomitmen membantu bisnis dan organisasi membangun solusi digital yang praktis, andal, dan bermakna. Kami tidak hanya menulis kode; kami menciptakan solusi yang memberdayakan.',
+    'about_us_text2' => 'Dengan misi itu, kami berkomitmen membantu bisnis dan organisasi membangun solusi digital yang praktis, andal, dan bermakna. Kami tidak hanya menulis kode; kami menciptakan solusi yang memberi nilai lebih.',
     'about_experience_years' => 'Tahun Pengalaman',
     'about_highlight1_title' => 'Awal yang Sederhana',
     'about_highlight1_text' => 'Berawal dari visi untuk membuat teknologi lebih bermanfaat dan bisa diakses oleh semua orang.',
     'about_highlight2_title' => 'Didorong oleh Purpose',
     'about_highlight2_text' => 'Kami percaya software terbaik adalah yang mampu menyelesaikan masalah nyata dan meningkatkan kehidupan penggunanya.',
     'portfolio_title' => 'Portofolio',
-    'portfolio_subtitle_line1' => 'Jelajahi Perjalanan',
-    'portfolio_subtitle_line2' => 'Kreatif Kami',
-    'portfolio_subtitle_line3' => 'Menciptakan Sukses Lewat Inovasi',
+    'portfolio_subtitle_line1' => 'Perjalanan Kami',
+    'portfolio_subtitle_line2' => 'Dari Ide ke Karya',
+    'portfolio_subtitle_line3' => 'Mengubah Inovasi Menjadi Kesuksesan',
 
     'portfolio_3d_portfolio' => 'Portofolio Web 3D',
     'portfolio_3d_portfolio_desc' => 'Pengalaman web 3D interaktif yang imersif dengan storytelling unik.',
@@ -222,4 +223,41 @@ return [
             'name' => 'Budi Santoso',
         ],
     ],
+    'brand' => [
+        'trusted' => '100+ Dipercaya oleh klien di seluruh dunia',
+    ],
+    'tagline' => 'Kami adalah konsultan IT kreatif terbaik untuk membantu brand anda tumbuh',
+    'get_in_touch' => 'Hubungi Kami',
+    'location_title' => 'Lokasi',
+    'location_address' => 'D16 Pondok Sabilulungan, Banjaran St., Bandung, Indonesia',
+    'working_time_title' => 'Jam Kerja',
+    'working_time' => 'Senin - Minggu <br> 08:00 - 21:00',
+    'contact_title' => 'Kontak Kami',
+    'pages_title' => 'Halaman',
+    'pages' => [
+        'home' => 'Beranda',
+        'about' => 'Tentang Kami',
+        'pricing' => 'Harga',
+        'portfolio' => 'Portofolio',
+        'blogs' => 'Blog',
+        'careers' => 'Karir',
+    ],
+
+    'support_title' => 'Dukungan',
+    'support' => [
+        'terms' => 'Syarat & Ketentuan',
+        'faqs' => 'FAQs',
+        'contact' => 'Kontak Kami',
+        'not_found' => 'Halaman 404',
+        'live_chat' => 'Live Chat',
+        'services' => 'Layanan Kami',
+    ],
+    'newsletter_title' => 'Buletin',
+    'newsletter_text' => 'Dapatkan tips SEO terbaru dan insight software langsung di email Anda.',
+    'newsletter_placeholder' => 'Masukkan alamat email',
+    'newsletter_privacy' => 'Dengan berlangganan, Anda menyetujui kebijakan privasi',
+    'follow_us' => 'Ikuti Kami:',
+    'copyright' => 'All rights reserved',
+    'get_in_touch' => 'Hubungi Kami',
+    'whatsapp_message' => 'Halo, saya tertarik dengan layanan IT Consultant Anda.',
 ];

@@ -19,12 +19,15 @@
                             alt=""></a>
                 </div>
                 <div class="site-footer__top-text-box">
-                    <p class="site-footer__top-text">We are the best creative agency <br>
-                        worldwide to brands grow</p>
+                    <p class="site-footer__top-text">{{ __('home.tagline') }}</p>
                 </div>
                 <div class="site-footer__btn-box">
-                    <a href="{{ route('contact') }}" class="site-footer__btn">Get In Touch<span
-                            class="icon-right-arrow"></span></a>
+                <a href="https://wa.me/6285889963822?text={{ urlencode(__('home.whatsapp_message')) }}" 
+                    target="_blank" 
+                    class="site-footer__btn">
+                        {{ __('home.get_in_touch') }}
+                        <span class="icon-right-arrow"></span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -38,32 +41,30 @@
                             <li>
                                 <div class="icon-box">
                                     <span class="icon-pin"></span>
-                                    <p>Location</p>
+                                    <p>{{ __('home.location_title') }}</p>
                                 </div>
                                 <div class="text">
-                                    <p>123 Main Street, Apt 4BNew <br>
-                                        York, NY 10001USA</p>
+                                    <p>{{ __('home.location_address') }}</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="icon-box">
                                     <span class="icon-clock"></span>
-                                    <p>Working Time</p>
+                                    <p>{{ __('home.working_time_title') }}</p>
                                 </div>
                                 <div class="text">
-                                    <p>Sunday - Monday (Fri - Closed) <br>
-                                        10:00 AM - 5:00 PM</p>
+                                    <p>{!! __('home.working_time') !!}</p>
                                 </div>
                             </li>
                             <li>
                                 <div class="icon-box">
                                     <span class="icon-contact"></span>
-                                    <p>Contact Us</p>
+                                    <p>{{ __('home.contact_title') }}</p>
                                 </div>
                                 <div class="text">
                                     <p>
-                                        <a href="mailto:support@domain.com" class="mail-box">support@domain.com</a>
-                                        <a href="tel:12004567890" class="call-number">+12 (00) 456 7890</a>
+                                        <a href="mailto:{{ __('home.contact.email_value') }}" class="mail-box">{{ __('home.contact.email_value') }}</a>
+                                        <a href="tel:{{ __('home.contact.phone_value') }}" class="call-number">{{ __('home.contact.phone_value') }}</a>
                                     </p>
                                 </div>
                             </li>
@@ -72,52 +73,50 @@
                 </div>
                 <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                     <div class="footer-widget__quick-links">
-                        <h4 class="footer-widget__title">Pages</h4>
+                        <h4 class="footer-widget__title">{{ __('home.pages_title') }}</h4>
                         <ul class="footer-widget__quick-links-list list-unstyled">
-                            <li><a href="{{ route('index') }}">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Blogs</a></li>
-                            <li><a href="{{ route('contact') }}">Careers</a></li>
+                            <li><a href="#home">{{ __('home.pages.home') }}</a></li>
+                            <li><a href="#about">{{ __('home.pages.about') }}</a></li>
+                            <li><a href="#services">{{ __('home.pages.pricing') }}</a></li>
+                            <li><a href="#portfolio">{{ __('home.pages.portfolio') }}</a></li>
+                            <!-- <li><a href="#">{{ __('home.pages.blogs') }}</a></li> -->
+                            <li><a href="#">{{ __('home.pages.careers') }}</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                     <div class="footer-widget__support">
-                        <h4 class="footer-widget__title">Support</h4>
+                        <h4 class="footer-widget__title">{{ __('home.support_title') }}</h4>
                         <ul class="footer-widget__quick-links-list list-unstyled">
-                            <li><a href="#">Terms & Condition</a></li>
-                            <li><a href="#">FAQs</a></li>
-                            <li><a href="{{ route('contact') }}">Contact Us</a></li>
-                            <li><a href="{{ route('404') }}">404 Page</a></li>
-                            <li><a href="{{ route('contact') }}">Live Chat</a></li>
-                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">{{ __('home.support.terms') }}</a></li>
+                            <li><a href="#">{{ __('home.support.faqs') }}</a></li>
+                            <li><a href="#">{{ __('home.support.contact') }}</a></li>
+                            <li><a href="{{ route('404') }}">{{ __('home.support.not_found') }}</a></li>
+                            <li><a href="#">{{ __('home.support.live_chat') }}</a></li>
+                            <li><a href="#services">{{ __('home.support.services') }}</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                     <div class="footer-widget__newsletter">
-                        <h4 class="footer-widget__title">Newsletter</h4>
+                        <h4 class="footer-widget__title">{{ __('home.newsletter_title') }}</h4>
                         <div class="footer-widget__newsletter-box">
-                            <p class="footer-widget__newsletter-text">Get the latest SEO tips and software
-                                insights straight to your inbox.</p>
+                            <p class="footer-widget__newsletter-text">{{ __('home.newsletter_text') }}</p>
                             <form class="site-footer__newsletter-form contact-form-validated" action="assets/inc/sendemail.php" method="post" novalidate="novalidate">
                                 <div class="site-footer__newsletter-input">
-                                    <input type="email" placeholder="Enter email address">
+                                    <input type="email" placeholder="{{ __('home.newsletter_placeholder') }}">
                                 </div>
                                 <button type="submit" class="site-footer__newsletter-btn"> <span
                                         class="icon-right-arrow"></span>
                                 </button>
                                 <div class="checked-box">
                                     <input type="checkbox" name="skipper1" id="skipper" checked="">
-                                    <label for="skipper"><span></span>by Subscribing. Your Accept Privacy
-                                        policy</label>
+                                    <label for="skipper"><span></span>{{ __('home.newsletter_privacy') }}</label>
                                 </div>
                                 <div class="result mt-2"></div>
                             </form>
                             <div class="site-footer__social-box">
-                                <h4 class="site-footer__social-title">Follow Us:</h4>
+                                <h4 class="site-footer__social-title">{{ __('home.follow_us') }}</h4>
                                 <div class="site-footer__social-box-inner">
                                     <a href="#"><span class="icon-facebook"></span></a>
                                     <a href="#"><span class="icon-dribble"></span></a>
@@ -138,7 +137,7 @@
                     <div class="site-footer__bottom-inner">
                         <div class="site-footer__copyright">
                             <p class="site-footer__copyright-text">
-                                ⓒ Copyright 2025 <a href="#">techguru</a> All rights reserved
+                                ⓒ Copyright 2023 <a href="#">Anugrahdigital.co.id</a> {{ __('home.copyright') }}
                             </p>
                         </div>
                     </div>

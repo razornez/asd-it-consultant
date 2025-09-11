@@ -62,7 +62,7 @@
                                         <a href="#services">{{ __('home.menu.services') }}</a>
                                     </li>
                                     <li class="scrollToLink">
-                                        <a href="#about-four">{{ __('home.menu.about') }}</a>
+                                        <a href="#about">{{ __('home.menu.about') }}</a>
                                     </li>
                                     <li class="scrollToLink">
                                         <a href="#portfolio">{{ __('home.menu.portfolio') }}</a>
@@ -71,7 +71,7 @@
                                         <a href="#contact">{{ __('home.menu.contact') }}</a>
                                     </li>
                                     <li class="scrollToLink">
-                                        <a href="#team">{{ __('home.menu.testimoni') }}</a>
+                                        <a href="#testimonial">{{ __('home.menu.testimoni') }}</a>
                                     </li>
                                 </ul>
                             </div>
