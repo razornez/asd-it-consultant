@@ -184,7 +184,7 @@
                     </div>
                     <div class="col-xl-6 wow fadeInUp" data-wow-delay="200ms">
                         <div class="why-choose-three__img">
-                            <img src="{{ asset('assets/images/resources/why-choose-three-img.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/resources/webp/why-choose-three-img.webp') }}" alt="">
                         </div>
                     </div>
                     <div class="col-xl-3 wow fadeInRight" data-wow-delay="100ms">

@@ -29,13 +29,13 @@
                     </div>
                     <div class="main-slider__shape-2"></div>
                     <div class="main-slider__shape-3">
-                        <img src="{{ asset('assets/images/shapes/main-slider-shape-3.png') }}" alt="">
+                        <img src="{{ asset('assets/images/shapes/main-slider-shape-3.webp') }}" alt="">
                     </div>
                     <div class="main-slider__shape-4">
-                        <img src="{{ asset('assets/images/shapes/main-slider-shape-4.png') }}" alt="">
+                        <img src="{{ asset('assets/images/shapes/main-slider-shape-4.webp') }}" alt="">
                     </div>
                     <div class="main-slider__shape-5">
-                        <img src="{{ asset('assets/images/shapes/main-slider-shape-5.png') }}" alt="">
+                        <img src="{{ asset('assets/images/shapes/main-slider-shape-5.webp') }}" alt="">
                     </div>
                     <div class="container">
                         <div class="row">
@@ -556,7 +556,7 @@
                 </div>
                 <div class="col-xl-6 wow fadeInUp" data-wow-delay="200ms">
                     <div class="why-choose-three__img">
-                        <img src="{{ asset('assets/images/resources/why-choose-three-img.png') }}" alt="">
+                        <img src="{{ asset('assets/images/resources/webp/why-choose-three-img.webp') }}" alt="">
                     </div>
                 </div>
                 <div class="col-xl-3 wow fadeInRight" data-wow-delay="100ms">
@@ -587,7 +587,7 @@
     <!-- Counter Two Start -->
     <section class="counter-two">
         <div class="counter-two__bg-shape"
-            style="background-image: url({{ asset('assets/images/shapes/counter-two-bg-shape.png') }});"></div>
+            style="background-image: url({{ asset('assets/images/shapes/counter-two-bg-shape.webp') }});"></div>
         <div class="container">
             <div class="row">
                 <!--Counter Two Single Start-->
@@ -675,7 +675,7 @@
         <div class="process-one__shape-2"></div>
         <div class="process-one__shape-3"></div>
         <div class="process-one__bg-shape"
-            style="background-image: url({{ asset('assets/images/shapes/process-one-bg-shape.png') }});"></div>
+            style="background-image: url({{ asset('assets/images/shapes/process-one-bg-shape.webp') }});"></div>
         <div class="container">
             <div class="row">
             <div class="col-xl-5">
@@ -921,7 +921,7 @@
                             <ul class="portfolio-two__box list-unstyled">
                                 <li>
                                     <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/sim-rs.jpg') }});" loading="lazy"></div>
+                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/resources/webp/porto1.webp') }});" loading="lazy"></div>
                                         <div class="portfolio-two__title">
                                             <h3><a href="https://www.razornez.net/" target="_blank">{{ __('home.portfolio_3d_portfolio') }}</a></h3>
                                         </div>
@@ -936,7 +936,7 @@
 
                                 <li class="active">
                                     <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/sim-rs.jpg') }});" loading="lazy"></div>
+                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/resources/webp/porto2.webp') }});" loading="lazy"></div>
                                         <div class="portfolio-two__title">
                                             <h3><a href="https://hutri.vercel.app/" target="_blank">{{ __('home.portfolio_hutri') }}</a></h3>
                                         </div>
@@ -951,7 +951,7 @@
 
                                 <li>
                                     <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/sim-rs.jpg') }});" loading="lazy"></div>
+                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/resources/webp/porto3.webp') }});" loading="lazy"></div>
                                         <div class="portfolio-two__title">
                                             <h3><a href="https://tree-house-3d.vercel.app/" target="_blank">{{ __('home.portfolio_treehouse') }}</a></h3>
                                         </div>
@@ -966,7 +966,7 @@
 
                                 <li>
                                     <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/sim-rs.jpg') }});" loading="lazy"></div>
+                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/resources/webp/porto4.webp') }});" loading="lazy"></div>
                                         <div class="portfolio-two__title">
                                             <h3><a href="#">{{ __('home.portfolio_simrs') }}</a></h3>
                                         </div>
@@ -988,7 +988,7 @@
                             <ul class="portfolio-two__box list-unstyled">
                                 <li>
                                     <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/sim-school.jpg') }});" loading="lazy"></div>
+                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/resources/webp/porto5.webp') }});" loading="lazy"></div>
                                         <div class="portfolio-two__title">
                                             <h3><a href="#">{{ __('home.portfolio_school') }}</a></h3>
                                         </div>
@@ -1003,7 +1003,7 @@
 
                                 <li class="active">
                                     <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/inventory-system.jpg') }});" loading="lazy"></div>
+                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/resources/webp/porto6.webp') }});" loading="lazy"></div>
                                         <div class="portfolio-two__title">
                                             <h3><a href="#">{{ __('home.portfolio_inventory') }}</a></h3>
                                         </div>
@@ -1018,7 +1018,7 @@
 
                                 <li>
                                     <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/mobile-app.jpg') }});" loading="lazy"></div>
+                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/resources/webp/porto7.webp') }});" loading="lazy"></div>
                                         <div class="portfolio-two__title">
                                             <h3><a href="#">{{ __('home.portfolio_mobileapp') }}</a></h3>
                                         </div>
@@ -1033,7 +1033,7 @@
 
                                 <li>
                                     <div class="portfolio-two__box-content">
-                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/project/erp.jpg') }});" loading="lazy"></div>
+                                        <div class="single-portfolio-two__bg" style="background-image: url({{ asset('assets/images/resources/webp/porto8.webp') }});" loading="lazy"></div>
                                         <div class="portfolio-two__title">
                                             <h3><a href="#">{{ __('home.portfolio_erp') }}</a></h3>
                                         </div>

@@ -138,7 +138,7 @@ return [
     ],
     'about_us_title' => 'Tentang Kami',
     'about_us_heading' => 'Dari Passion Menjadi Purpose: Kisah Perjalanan IT Kami',
-    'about_us_text1' => 'Perusahaan ini didirikan oleh Iwan Kurniawan, seorang pakar IT dengan pengalaman lebih dari 10 tahun. Sebagai mahasiswa S2 di ITB STEI sekaligus software developer berpengalaman, ia telah berkarya di industri IT baik di dalam negeri maupun di Eropa. Berbekal pengalaman tersebut, Iwan memahami betul best practices dunia IT dan meyakini bahwa software tidak boleh dibuat hanya untuk sekadar teknologi, tetapi harus benar-benar memberi manfaat bagi penggunanya.',
+    'about_us_text1' => 'Perusahaan ini didirikan oleh Iwan Kurniawan, seorang pakar IT dengan pengalaman lebih dari 10 tahun. Sebagai mahasiswa S2 di ITB STEI sekaligus software developer berpengalaman, ia telah berkarya di industri IT baik di dalam negeri maupun di Eropa. Berbekal pengalaman tersebut, kita memahami betul best practices dunia IT dan meyakini bahwa software tidak boleh dibuat hanya untuk sekadar teknologi, tetapi harus benar-benar memberi manfaat bagi penggunanya.',
     'about_us_text2' => 'Dengan misi itu, kami berkomitmen membantu bisnis dan organisasi membangun solusi digital yang praktis, andal, dan bermakna. Kami tidak hanya menulis kode; kami menciptakan solusi yang memberi nilai lebih.',
     'about_experience_years' => 'Tahun Pengalaman',
     'about_highlight1_title' => 'Awal yang Sederhana',
@@ -168,8 +168,8 @@ return [
     'portfolio_inventory' => 'Sistem Manajemen Inventori',
     'portfolio_inventory_desc' => 'Aplikasi berbasis web untuk manajemen stok dan gudang.',
 
-    'portfolio_mobileapp' => 'Pengembangan Aplikasi Mobile',
-    'portfolio_mobileapp_desc' => 'Aplikasi mobile cross-platform dengan UI modern dan performa mulus.',
+    'portfolio_mobileapp' => 'Pengembangan Aplikasi Parkir',
+    'portfolio_mobileapp_desc' => 'Aplikasi parkir one-gate-system untuk dipakai di kantor, mall, dsb',
 
     'portfolio_erp' => 'Enterprise Resource Planning (ERP)',
     'portfolio_erp_desc' => 'Solusi ERP terintegrasi untuk keuangan, HR, dan operasional.',
