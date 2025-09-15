@@ -27,13 +27,13 @@
 </html>
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-74KHTS4R1L"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-75JTJ4Q277"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-74KHTS4R1L');
+  gtag('config', 'G-75JTJ4Q277');
 </script>
 <!-- Event snippet for Kontak conversion page -->
 <script>
