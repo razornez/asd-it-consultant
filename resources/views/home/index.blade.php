@@ -113,13 +113,13 @@
                     </div>
                     <div class="main-slider__shape-2"></div>
                     <div class="main-slider__shape-3">
-                        <img src="{{ asset('assets/images/shapes/main-slider-shape-3.png') }}" alt="">
+                        <img src="{{ asset('assets/images/shapes/main-slider-shape-3.webp') }}" alt="">
                     </div>
                     <div class="main-slider__shape-4">
-                        <img src="{{ asset('assets/images/shapes/main-slider-shape-4.png') }}" alt="">
+                        <img src="{{ asset('assets/images/shapes/main-slider-shape-4.webp') }}" alt="">
                     </div>
                     <div class="main-slider__shape-5">
-                        <img src="{{ asset('assets/images/shapes/main-slider-shape-5.png') }}" alt="">
+                        <img src="{{ asset('assets/images/shapes/main-slider-shape-5.webp') }}" alt="">
                     </div>
                     <div class="container">
                         <div class="row">
@@ -199,13 +199,13 @@
                     </div>
                     <div class="main-slider__shape-2"></div>
                     <div class="main-slider__shape-3">
-                        <img src="{{ asset('assets/images/shapes/main-slider-shape-3.png') }}" alt="">
+                        <img src="{{ asset('assets/images/shapes/main-slider-shape-3.webp') }}" alt="">
                     </div>
                     <div class="main-slider__shape-4">
-                        <img src="{{ asset('assets/images/shapes/main-slider-shape-4.png') }}" alt="">
+                        <img src="{{ asset('assets/images/shapes/main-slider-shape-4.webp') }}" alt="">
                     </div>
                     <div class="main-slider__shape-5">
-                        <img src="{{ asset('assets/images/shapes/main-slider-shape-5.png') }}" alt="">
+                        <img src="{{ asset('assets/images/shapes/main-slider-shape-5.webp') }}" alt="">
                     </div>
                     <div class="container">
                         <div class="row">
@@ -600,8 +600,8 @@
                         </div>
                         <div class="counter-two__content">
                             <div class="counter-two__count-box">
-                                <h3 class="odometer" data-count="120">{{ __('home.award_total') }}</h3>
-                                <span> </span>
+                                <h3 class="odometer" data-count="23">{{ __('home.award_total') }}</h3>
+                                <span>+</span>
                             </div>
                             <p class="counter-two__text">{{ __('home.award_title') }}</p>
                         </div>
@@ -618,8 +618,8 @@
                         </div>
                         <div class="counter-two__content">
                             <div class="counter-two__count-box">
-                                <h3 class="odometer" data-count="300">{{ __('home.team_total') }}</h3>
-                                <span> </span>
+                                <h3 class="odometer" data-count="20">{{ __('home.team_total') }}</h3>
+                                <span>+</span>
                             </div>
                             <p class="counter-two__text">{{ __('home.team_title') }}</p>
                         </div>
@@ -636,8 +636,8 @@
                         </div>
                         <div class="counter-two__content">
                             <div class="counter-two__count-box">
-                                <h3 class="odometer" data-count="20">{{ __('home.client_total') }}</h3>
-                                <span>M</span>
+                                <h3 class="odometer" data-count="90">{{ __('home.client_total') }}</h3>
+                                <span>+</span>
                             </div>
                             <p class="counter-two__text">{{ __('home.client_title') }}</p>
                         </div>
@@ -654,8 +654,8 @@
                         </div>
                         <div class="counter-two__content">
                             <div class="counter-two__count-box">
-                                <h3 class="odometer" data-count="1.5">{{ __('home.project_total') }}</h3>
-                                <span>K</span>
+                                <h3 class="odometer" data-count="100">{{ __('home.project_total') }}</h3>
+                                <span>+</span>
                             </div>
                             <p class="counter-two__text">{{ __('home.project_title') }}</p>
                         </div>
@@ -894,7 +894,7 @@
     <!-- Portfolio Two Start -->
     <section class="portfolio-two" id="portfolio">
         <div class="portfolio-two__shape-1 float-bob-y">
-            <img src="{{ asset('assets/images/shapes/portfolio-two-shape-1.png') }}" alt="">
+            <img src="{{ asset('assets/images/shapes/portfolio-two-shape-1.webp') }}" alt="">
         </div>
         <div class="portfolio-two__shape-2"></div>
         <div class="portfolio-two__shape-3"></div>
@@ -1128,7 +1128,7 @@
                                 </div>
                                 <div class="content">
                                     <h4>{{ __('home.contact.email_title') }}</h4>
-                                    <p><a href="mailto:cs@anugrahdigital.co.i.id">{{ __('home.contact.email_value') }}</a></p>
+                                    <p><a href="mailto:{{ __('home.contact.email_value') }}">{{ __('home.contact.email_value') }}</a></p>
                                 </div>
                             </li>
                             <li>
@@ -1198,9 +1198,9 @@
                                                 </div>
                                             </div>
                                             <div class="testimonial-one__trustpilot-box">
-                                                <div class="testimonial-one__trustpilot-logo">
+                                                <!-- <div class="testimonial-one__trustpilot-logo">
                                                     <img src="{{ asset('assets/images/resources/trustpilot-logo.png') }}" alt="">
-                                                </div>
+                                                </div> -->
                                                 <div class="testimonial-one__trustpilot-text-and-star">
                                                     <p class="testimonial-one__trustpilot-text">5.0 Excellent</p>
                                                     <ul class="list-unstyled testimonial-one__trustpilot-star-list">
@@ -1241,9 +1241,9 @@
                                                 </div>
                                             </div>
                                             <div class="testimonial-one__trustpilot-box">
-                                                <div class="testimonial-one__trustpilot-logo">
+                                                <!-- <div class="testimonial-one__trustpilot-logo">
                                                     <img src="{{ asset('assets/images/resources/trustpilot-logo.png') }}" alt="">
-                                                </div>
+                                                </div> -->
                                                 <div class="testimonial-one__trustpilot-text-and-star">
                                                     <p class="testimonial-one__trustpilot-text">5.0 Excellent</p>
                                                     <ul class="list-unstyled testimonial-one__trustpilot-star-list">
@@ -1284,9 +1284,9 @@
                                                 </div>
                                             </div>
                                             <div class="testimonial-one__trustpilot-box">
-                                                <div class="testimonial-one__trustpilot-logo">
+                                                <!-- <div class="testimonial-one__trustpilot-logo">
                                                     <img src="{{ asset('assets/images/resources/trustpilot-logo.png') }}" alt="">
-                                                </div>
+                                                </div> -->
                                                 <div class="testimonial-one__trustpilot-text-and-star">
                                                     <p class="testimonial-one__trustpilot-text">5.0 Excellent</p>
                                                     <ul class="list-unstyled testimonial-one__trustpilot-star-list">
@@ -1313,7 +1313,7 @@
         <div class="brand-one">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-xl-3 col-lg-4 col-md-5">
+                    <!-- <div class="col-xl-3 col-lg-4 col-md-5">
                         <div class="brand-one__left">
                             <ul class="list-unstyled brand-one__img-list">
                                 <li>
@@ -1377,7 +1377,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

@@ -31,7 +31,7 @@
                                     <i class="icon-phone-call"></i>
                                 </div>
                                 <div class="text">
-                                    <p><a href="tel:{{ __('home.contact.wa_value') }}">{{ __('home.contact.phone_value') }}</a></p>
+                                    <a href="https://wa.me/{{ __('home.contact.wa_value') }}?text={{ urlencode(__('home.whatsapp_message')) }}" target="_blank">{{ __('home.get_started') }}</a>
                                 </div>
                             </li>
                         </ul>
