@@ -51,6 +51,15 @@ var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
+<script>
+fetch("https://ipapi.co/json/")
+  .then(res => res.json())
+  .then(data => {
+    if (data.country_code !== "ID" && !window.location.pathname.startsWith("/en")) {
+      window.location.href = "/en";
+    }
+  });
+</script>
 <!--End of Tawk.to Script-->
 <script>
     function sendToWhatsApp(event) {
