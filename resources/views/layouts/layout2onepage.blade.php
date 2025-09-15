@@ -35,6 +35,10 @@
 
   gtag('config', 'G-75JTJ4Q277');
 </script>
+<!-- Event snippet for Kontak conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-454861025/Idy2CP_kmuUZEOHB8tgB'});
+</script>
 <script>
     function sendToWhatsApp(event) {
         event.preventDefault();
