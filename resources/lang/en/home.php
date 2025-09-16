@@ -3,6 +3,9 @@
 return [
     'title' => 'Anugrah Digital Solutions, Inc.',
     'address' => 'Bandung, West Java, Indonesia 40379',
+    'social' => [
+        'linkedin' => 'https://www.linkedin.com/company/pt-anugrah-solusi-digital/',
+    ],
     'menu' => [
         'help' => 'Help',
         'support' => 'Support',

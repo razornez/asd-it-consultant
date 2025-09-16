@@ -6,7 +6,7 @@
                             <a href="#"><span class="icon-facebook"></span></a>
                             <a href="#"><span class="icon-dribble"></span></a>
 
-                            <a href="#"><span class="icon-linkedin"></span></a>
+                            <a href="{{ __('home.social.linkedin') }}" target="_blank"><span class="icon-linkedin"></span></a>
                         </div>
                         <ul class="list-unstyled main-menu__contact-list">
                             <li>

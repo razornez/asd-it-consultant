@@ -3,6 +3,9 @@
 return [
     'title' => 'PT. Anugrah Solusi Digital',
     'address' => 'Bandung, Jawa Barat, Indonesia 40379',
+    'social' => [
+        'linkedin' => 'https://www.linkedin.com/company/pt-anugrah-solusi-digital/',
+    ],
     'menu' => [
         'help' => 'Bantuan',
         'support' => 'Dukungan',
