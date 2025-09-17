@@ -147,13 +147,13 @@
                                             <ul class="list-unstyled main-slider__trustpilot-img-list">
                                                 <li>
                                                     <div class="main-slider__trustpilot-img">
-                                                        <img src="{{ asset('assets/images/resources/main-slider-trustpilot-img-1.jpg') }}"
+                                                        <img src="{{ asset('assets/images/resources/main-slider-trustpilot-img-1.png') }}"
                                                             alt="">
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="main-slider__trustpilot-img">
-                                                        <img src="{{ asset('assets/images/resources/main-slider-trustpilot-img-2.jpg') }}"
+                                                        <img src="{{ asset('assets/images/resources/main-slider-trustpilot-img-2.png') }}"
                                                             alt="">
                                                     </div>
                                                 </li>
@@ -231,13 +231,13 @@
                                             <ul class="list-unstyled main-slider__trustpilot-img-list">
                                                 <li>
                                                     <div class="main-slider__trustpilot-img">
-                                                        <img src="{{ asset('assets/images/resources/main-slider-trustpilot-img-1.jpg') }}"
+                                                        <img src="{{ asset('assets/images/resources/main-slider-trustpilot-img-1.png') }}"
                                                             alt="">
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="main-slider__trustpilot-img">
-                                                        <img src="{{ asset('assets/images/resources/main-slider-trustpilot-img-2.jpg') }}"
+                                                        <img src="{{ asset('assets/images/resources/main-slider-trustpilot-img-2.png') }}"
                                                             alt="">
                                                     </div>
                                                 </li>
