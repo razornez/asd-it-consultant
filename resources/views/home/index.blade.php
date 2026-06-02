@@ -73,10 +73,6 @@
                                                 </li>
                                             </ul>
                                             <div class="main-slider__trustpilot-content-box">
-                                                <div class="main-slider__trustpilot-logo">
-                                                    <img src="{{ asset('assets/images/resources/main-slider-trustpilot-logo.png') }}"
-                                                        alt="">
-                                                </div>
                                                 <div class="main-slider__trustpilot-rating-review">
                                                     <p class="main-slider__trustpilot-rating">5.0 Excellent</p>
                                                     <p class="main-slider__trustpilot-review">Reviews <span class="odometer"
@@ -88,14 +84,6 @@
                                     <div class="main-slider__img">
                                         <img src="{{ asset('assets/images/resources/webp/main-slider-img-1.webp') }}"
                                             alt="">
-                                    </div>
-                                    <div class="main-slider__video-link">
-                                        <a href="https://razornez.net/" class="video-popup">
-                                            <div class="main-slider__video-icon">
-                                                <span class="fa fa-play"></span>
-                                                <i class="ripple"></i>
-                                            </div>
-                                        </a>
                                     </div>
                                     <div class="main-slider__shield-check-icon">
                                         <img src="{{ asset('assets/images/icon/main-slider-shield-check-icon.png') }}"
@@ -159,14 +147,10 @@
                                                 </li>
                                             </ul>
                                             <div class="main-slider__trustpilot-content-box">
-                                                <div class="main-slider__trustpilot-logo">
-                                                    <img src="{{ asset('assets/images/resources/main-slider-trustpilot-logo.png') }}"
-                                                        alt="">
-                                                </div>
                                                 <div class="main-slider__trustpilot-rating-review">
                                                     <p class="main-slider__trustpilot-rating">5.0 Excellent</p>
                                                     <p class="main-slider__trustpilot-review">Reviews <span
-                                                            class="odometer" data-count="4170"></span> </p>
+                                                            class="odometer" data-count="100"></span>+ </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -174,98 +158,6 @@
                                     <div class="main-slider__img">
                                         <img src="{{ asset('assets/images/resources/webp/main-slider-img-1.webp') }}"
                                             alt="">
-                                    </div>
-                                    <div class="main-slider__video-link">
-                                        <a href="https://hutri.vercel.app/" class="video-popup">
-                                            <div class="main-slider__video-icon">
-                                                <span class="fa fa-play"></span>
-                                                <i class="ripple"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="main-slider__shield-check-icon">
-                                        <img src="{{ asset('assets/images/icon/main-slider-shield-check-icon.png') }}"
-                                            alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="main-slider__shape-1 img-bounce">
-                        <img src="{{ asset('assets/images/shapes/main-slider-shape-1.png') }}" alt="">
-                    </div>
-                    <div class="main-slider__shape-2"></div>
-                    <div class="main-slider__shape-3">
-                        <img src="{{ asset('assets/images/shapes/main-slider-shape-3.webp') }}" alt="">
-                    </div>
-                    <div class="main-slider__shape-4">
-                        <img src="{{ asset('assets/images/shapes/main-slider-shape-4.webp') }}" alt="">
-                    </div>
-                    <div class="main-slider__shape-5">
-                        <img src="{{ asset('assets/images/shapes/main-slider-shape-5.webp') }}" alt="">
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-12">
-                                <div class="main-slider__content">
-                                <div class="main-slider__sub-title-box">
-                                        <div class="main-slider__sub-title-icon">
-                                            <img src="{{ asset('assets/images/icon/main-slider-sub-title-icon.png') }}"
-                                                alt="">
-                                        </div>
-                                        <p class="main-slider__sub-title">{{ __('home.subtitle') }}</p>
-                                    </div>
-                                    <h2 class="main-slider__title">
-                                        {!! __('home.hero.title2') !!}
-                                    </h2>
-                                    <p class="main-slider__text">{!! __('home.hero.tagline2') !!}</p>
-                                    <div class="main-slider__btn-and-trustpilot-box">
-                                        <div class="main-slider__btn-box">
-                                            <a href="{{ route('contact') }}" class="thm-btn">Get Started<span
-                                                    class="icon-right-arrow"></span></a>
-                                        </div>
-                                        <div class="main-slider__trustpilot-box">
-                                            <ul class="list-unstyled main-slider__trustpilot-img-list">
-                                                <li>
-                                                    <div class="main-slider__trustpilot-img">
-                                                        <img src="{{ asset('assets/images/resources/main-slider-trustpilot-img-1.png') }}"
-                                                            alt="">
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="main-slider__trustpilot-img">
-                                                        <img src="{{ asset('assets/images/resources/main-slider-trustpilot-img-2.png') }}"
-                                                            alt="">
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                            <div class="main-slider__trustpilot-content-box">
-                                                <div class="main-slider__trustpilot-logo">
-                                                    <img src="{{ asset('assets/images/resources/main-slider-trustpilot-logo.png') }}"
-                                                        alt="">
-                                                </div>
-                                                <div class="main-slider__trustpilot-rating-review">
-                                                    <p class="main-slider__trustpilot-rating">5.0 Excellent</p>
-                                                    <p class="main-slider__trustpilot-review">Reviews <span
-                                                            class="odometer" data-count="4170"></span> </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="main-slider__img">
-                                        <img src="{{ asset('assets/images/resources/webp/main-slider-img-1.webp') }}"
-                                            alt="">
-                                    </div>
-                                    <div class="main-slider__video-link">
-                                        <a href="https://razornez.net/" class="video-popup">
-                                            <div class="main-slider__video-icon">
-                                                <span class="fa fa-play"></span>
-                                                <i class="ripple"></i>
-                                            </div>
-                                        </a>
                                     </div>
                                     <div class="main-slider__shield-check-icon">
                                         <img src="{{ asset('assets/images/icon/main-slider-shield-check-icon.png') }}"
@@ -600,7 +492,7 @@
                         </div>
                         <div class="counter-two__content">
                             <div class="counter-two__count-box">
-                                <h3 class="odometer" data-count="23">{{ __('home.award_total') }}</h3>
+                                <h3 class="odometer" data-count="120">{{ __('home.award_total') }}</h3>
                                 <span>+</span>
                             </div>
                             <p class="counter-two__text">{{ __('home.award_title') }}</p>
@@ -618,7 +510,7 @@
                         </div>
                         <div class="counter-two__content">
                             <div class="counter-two__count-box">
-                                <h3 class="odometer" data-count="20">{{ __('home.team_total') }}</h3>
+                                <h3 class="odometer" data-count="23">{{ __('home.team_total') }}</h3>
                                 <span>+</span>
                             </div>
                             <p class="counter-two__text">{{ __('home.team_title') }}</p>
@@ -636,7 +528,7 @@
                         </div>
                         <div class="counter-two__content">
                             <div class="counter-two__count-box">
-                                <h3 class="odometer" data-count="90">{{ __('home.client_total') }}</h3>
+                                <h3 class="odometer" data-count="72">{{ __('home.client_total') }}</h3>
                                 <span>+</span>
                             </div>
                             <p class="counter-two__text">{{ __('home.client_title') }}</p>
@@ -654,7 +546,7 @@
                         </div>
                         <div class="counter-two__content">
                             <div class="counter-two__count-box">
-                                <h3 class="odometer" data-count="100">{{ __('home.project_total') }}</h3>
+                                <h3 class="odometer" data-count="95">{{ __('home.project_total') }}</h3>
                                 <span>+</span>
                             </div>
                             <p class="counter-two__text">{{ __('home.project_title') }}</p>

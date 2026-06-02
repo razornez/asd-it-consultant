@@ -8,7 +8,20 @@
     <link rel="icon" type="image/png" sizes="16x16"
         href="{{ asset('assets/images/favicons/favicon-16x16.png') }}" />
     <link rel="manifest" href="{{ asset('assets/images/favicons/site.webmanifest') }}" />
-    <meta name="description" content="IT Solutions & Technology Laravel Template " />
+    <meta name="description" content="{{ __('home.meta_description') }}" />
+
+    <!-- Open Graph / social sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="{{ __('home.title') }}" />
+    <meta property="og:title" content="{{ __('home.title') }}" />
+    <meta property="og:description" content="{{ __('home.meta_description') }}" />
+    <meta property="og:url" content="{{ url()->current() }}" />
+    <meta property="og:image" content="{{ asset('assets/images/resources/webp/main-slider-img-1.webp') }}" />
+    <meta property="og:locale" content="{{ app()->getLocale() === 'id' ? 'id_ID' : 'en_US' }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ __('home.title') }}" />
+    <meta name="twitter:description" content="{{ __('home.meta_description') }}" />
+    <meta name="twitter:image" content="{{ asset('assets/images/resources/webp/main-slider-img-1.webp') }}" />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

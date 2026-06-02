@@ -2,6 +2,7 @@
 
 return [
     'title' => 'Anugrah Digital Solutions, Inc.',
+    'meta_description' => 'Professional IT consultant based in Bandung, Indonesia. We build reliable, secure, results-driven software, web & mobile apps, ERP systems, hospital & school information systems, and SEO solutions to grow your business.',
     'address' => 'Bandung, West Java, Indonesia 40379',
     'social' => [
         'linkedin' => 'https://www.linkedin.com/company/pt-anugrah-solusi-digital/',
@@ -87,13 +88,13 @@ return [
         'title' => 'Results You Can Trust',
         'subtitle' => 'Our reputation is built on the success of our clients. We deliver measurable results that drive real business value and long-term success.',
     ],
-    'award_total' => '120+',
+    'award_total' => '120',
     'award_title' => 'Industry Awards & Recognitions',
-    'team_total' => '23+',
+    'team_total' => '23',
     'team_title' => 'Seasoned Tech Experts',
-    'client_total' => '72+',
+    'client_total' => '72',
     'client_title' => 'Satisfied Clients',
-    'project_total' => '95+',
+    'project_total' => '95',
     'project_title' => 'Successful Projects Delivered',
     'working_proses_title' => 'Working Process',
     'process' => [

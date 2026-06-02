@@ -2,6 +2,7 @@
 
 return [
     'title' => 'PT. Anugrah Solusi Digital',
+    'meta_description' => 'Konsultan IT profesional di Bandung. Kami membangun software, aplikasi web & mobile, sistem ERP, SIM Rumah Sakit & Sekolah, serta layanan SEO yang andal, aman, dan berorientasi hasil untuk pertumbuhan bisnis Anda.',
     'address' => 'Bandung, Jawa Barat, Indonesia 40379',
     'social' => [
         'linkedin' => 'https://www.linkedin.com/company/pt-anugrah-solusi-digital/',
@@ -93,13 +94,13 @@ return [
         'title' => 'Hasil yang Dapat Dipercaya',
         'subtitle' => 'Reputasi kami dibangun di atas kesuksesan klien kami. Kami memberikan hasil yang terukur yang mendorong nilai bisnis nyata dan kesuksesan jangka panjang.',
     ],
-    'award_total' => '120+',
+    'award_total' => '120',
     'award_title' => 'Penghargaan & Pengakuan Industri',
-    'team_total' => '23+',
+    'team_total' => '23',
     'team_title' => 'Tim Ahli Berpengalaman',
-    'client_total' => '72+',
+    'client_total' => '72',
     'client_title' => 'Klien yang Puas',
-    'project_total' => '95+',
+    'project_total' => '95',
     'project_title' => 'Proyek Berhasil Diselesaikan',
     'working_proses_title' => 'Bagaimana Kami Bekerja',
     'process' => [
