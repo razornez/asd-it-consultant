@@ -5,6 +5,23 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\ContactController;
 
+Route::get('/faq', [PagesController::class, 'faq'])
+    ->name('faq');
+Route::get('/refund-policy', [PagesController::class, 'refundPolicy'])
+    ->name('refund-policy');
+Route::get('/kebijakan-refund', [PagesController::class, 'refundPolicy'])
+    ->name('refund-policy.id');
+Route::get('/terms-and-conditions', [PagesController::class, 'terms'])
+    ->name('terms-and-conditions');
+Route::get('/syarat-ketentuan', [PagesController::class, 'terms'])
+    ->name('terms-and-conditions.id');
+Route::get('/kontak', [PagesController::class, 'contact'])
+    ->name('contact');
+Route::get('/contact', [PagesController::class, 'contact'])
+    ->name('contact.en');
+
+Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact.submit');
+
 // Group route untuk bahasa
 Route::get('/{locale?}', function ($locale = 'id') {
     if (! in_array($locale, ['id', 'en'])) {
@@ -12,9 +29,7 @@ Route::get('/{locale?}', function ($locale = 'id') {
     }
     App::setLocale($locale);
     return app(HomeController::class)->index();
-})->name('index');
-
-Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact.submit');
+})->whereIn('locale', ['id', 'en'])->name('index');
 
 
 // Pages Routes 
@@ -36,18 +51,11 @@ Route::post('/contact/submit', [ContactController::class, 'submit'])->name('cont
 //     ->name('pricing');
 // Route::get('/gallery', [PagesController::class, 'gallery'])
 //     ->name('gallery');
-// Route::get('/faq', [PagesController::class, 'faq'])
-//     ->name('faq');
 Route::get('/404', [PagesController::class, 'notfound'])
     ->name('404');
 // Route::get('/coming-soon', [PagesController::class, 'coming_soon'])
 //     ->name('coming-soon');
 
-
-// Contact Routes
-Route::get('/contact', [PagesController::class, 'contact'])
-    ->name('contact');
-
 Route::fallback(function () {
-    return view('pages.404');
+    return response()->view('pages.404', [], 404);
 })->name('fallback');

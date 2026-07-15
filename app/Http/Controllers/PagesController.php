@@ -16,4 +16,24 @@ class PagesController extends Controller
         return view('pages.contact');
     }
 
+    public function faq()
+    {
+        return view('pages.faq');
+    }
+
+    public function refundPolicy()
+    {
+        return view('pages.refund-policy');
+    }
+
+    public function terms()
+    {
+        return view('pages.terms-and-conditions');
+    }
+
+    public function notfound()
+    {
+        return view('pages.404');
+    }
+
 }

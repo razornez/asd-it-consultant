@@ -1,5 +1,5 @@
-@extends('layouts.layout4')
-@section('title', '404 Error || techguru || IT Solutions & Technology Laravel Template')
+@extends('layouts.layout2onepage')
+@section('title', '404 | PT. Anugrah Solusi Digital')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/error.css') }}">
 @endpush
@@ -26,8 +26,5 @@
         </div>
     </section>
     <!--End Error Page-->
-    <x-footer />
-    <x-mobileMenu />
-    <x-searchPopup />
-    <x-scroll-to-top />
+    <x-footer2 />
 @endsection

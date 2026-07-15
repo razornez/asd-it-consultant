@@ -36,9 +36,9 @@
                             </li>
                         </ul>
                         <ul class="list-unstyled main-menu__top-menu">
-                            <li><a href="#">{{ __('home.menu.help') }}</a></li>
-                            <li><a href="#">{{ __('home.menu.support') }}</a></li>
-                            <li><a href="#">{{ __('home.menu.faqs') }}</a></li>
+                            <li><a href="{{ route('contact') }}">{{ __('home.menu.help') }}</a></li>
+                            <li><a href="{{ route('terms-and-conditions') }}">{{ __('home.menu.support') }}</a></li>
+                            <li><a href="{{ route('faq') }}">{{ __('home.menu.faqs') }}</a></li>
                         </ul>
                     </div>
                 </div>
@@ -56,22 +56,22 @@
                                 <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                 <ul class="main-menu__list one-page-scroll-menu">
                                     <li class="scrollToLink">
-                                        <a href="#home">{{ __('home.menu.home') }}</a>
+                                        <a href="{{ route('index') }}#home">{{ __('home.menu.home') }}</a>
                                     </li>
                                     <li class="scrollToLink">
-                                        <a href="#services">{{ __('home.menu.services') }}</a>
+                                        <a href="{{ route('index') }}#services">{{ __('home.menu.services') }}</a>
                                     </li>
                                     <li class="scrollToLink">
-                                        <a href="#about">{{ __('home.menu.about') }}</a>
+                                        <a href="{{ route('index') }}#about">{{ __('home.menu.about') }}</a>
                                     </li>
                                     <li class="scrollToLink">
-                                        <a href="#portfolio">{{ __('home.menu.portfolio') }}</a>
+                                        <a href="{{ route('index') }}#portfolio">{{ __('home.menu.portfolio') }}</a>
                                     </li>
                                     <li class="scrollToLink">
-                                        <a href="#contact">{{ __('home.menu.contact') }}</a>
+                                        <a href="{{ route('contact') }}">{{ __('home.menu.contact') }}</a>
                                     </li>
                                     <li class="scrollToLink">
-                                        <a href="#testimonial">{{ __('home.menu.testimoni') }}</a>
+                                        <a href="{{ route('index') }}#testimonial">{{ __('home.menu.testimoni') }}</a>
                                     </li>
                                 </ul>
                             </div>

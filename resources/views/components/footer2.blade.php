@@ -75,12 +75,12 @@
                     <div class="footer-widget__quick-links">
                         <h4 class="footer-widget__title">{{ __('home.pages_title') }}</h4>
                         <ul class="footer-widget__quick-links-list list-unstyled">
-                            <li><a href="#home">{{ __('home.pages.home') }}</a></li>
-                            <li><a href="#about">{{ __('home.pages.about') }}</a></li>
-                            <li><a href="#services">{{ __('home.pages.pricing') }}</a></li>
-                            <li><a href="#portfolio">{{ __('home.pages.portfolio') }}</a></li>
+                            <li><a href="{{ route('index') }}#home">{{ __('home.pages.home') }}</a></li>
+                            <li><a href="{{ route('index') }}#about">{{ __('home.pages.about') }}</a></li>
+                            <li><a href="{{ route('index') }}#services">{{ __('home.pages.pricing') }}</a></li>
+                            <li><a href="{{ route('index') }}#portfolio">{{ __('home.pages.portfolio') }}</a></li>
                             <!-- <li><a href="#">{{ __('home.pages.blogs') }}</a></li> -->
-                            <li><a href="#">{{ __('home.pages.careers') }}</a></li>
+                            <li><a href="{{ route('contact') }}">{{ __('home.pages.careers') }}</a></li>
                         </ul>
                     </div>
                 </div>
@@ -88,12 +88,13 @@
                     <div class="footer-widget__support">
                         <h4 class="footer-widget__title">{{ __('home.support_title') }}</h4>
                         <ul class="footer-widget__quick-links-list list-unstyled">
-                            <li><a href="#">{{ __('home.support.terms') }}</a></li>
-                            <li><a href="#">{{ __('home.support.faqs') }}</a></li>
-                            <li><a href="#">{{ __('home.support.contact') }}</a></li>
+                            <li><a href="{{ route('terms-and-conditions') }}">{{ __('home.support.terms') }}</a></li>
+                            <li><a href="{{ route('faq') }}">{{ __('home.support.faqs') }}</a></li>
+                            <li><a href="{{ route('refund-policy') }}">{{ __('home.support.refund') }}</a></li>
+                            <li><a href="{{ route('contact') }}">{{ __('home.support.contact') }}</a></li>
                             <li><a href="{{ route('404') }}">{{ __('home.support.not_found') }}</a></li>
                             <li><a href="#">{{ __('home.support.live_chat') }}</a></li>
-                            <li><a href="#services">{{ __('home.support.services') }}</a></li>
+                            <li><a href="{{ route('index') }}#services">{{ __('home.support.services') }}</a></li>
                         </ul>
                     </div>
                 </div>
@@ -137,7 +138,7 @@
                     <div class="site-footer__bottom-inner">
                         <div class="site-footer__copyright">
                             <p class="site-footer__copyright-text">
-                                ⓒ Copyright 2023 <a href="#">Anugrahdigital.co.id</a> {{ __('home.copyright') }}
+                                &copy; Copyright 2023 <a href="{{ route('index') }}">Anugrahdigital.co.id</a> {{ __('home.copyright') }}
                             </p>
                         </div>
                     </div>

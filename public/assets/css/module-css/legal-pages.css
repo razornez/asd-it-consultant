@@ -1,0 +1,259 @@
+.legal-page {
+    background: #f7f9fc;
+}
+
+.legal-page__section {
+    position: relative;
+    padding: 120px 0;
+}
+
+.legal-page__intro {
+    max-width: 850px;
+    margin-bottom: 38px;
+}
+
+.legal-page__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--techguru-base);
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.legal-page__eyebrow:before {
+    content: "";
+    width: 34px;
+    height: 2px;
+    background: var(--techguru-base);
+}
+
+.legal-page__intro h3 {
+    color: var(--techguru-black);
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.legal-page__intro p {
+    color: var(--techguru-gray);
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.legal-page__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 360px;
+    gap: 30px;
+    align-items: start;
+}
+
+.legal-page__content,
+.legal-page__aside,
+.legal-page__card {
+    background: #fff;
+    border: 1px solid #e7edf5;
+    border-radius: 8px;
+    box-shadow: 0 18px 50px rgba(12, 25, 54, 0.06);
+}
+
+.legal-page__content {
+    padding: 42px;
+}
+
+.legal-page__block + .legal-page__block {
+    margin-top: 34px;
+    padding-top: 34px;
+    border-top: 1px solid #edf1f6;
+}
+
+.legal-page__block h4 {
+    color: var(--techguru-black);
+    font-size: 24px;
+    line-height: 1.35;
+    margin-bottom: 14px;
+}
+
+.legal-page__block p,
+.legal-page__block li {
+    color: var(--techguru-gray);
+    font-size: 16px;
+    line-height: 1.85;
+}
+
+.legal-page__block p + p,
+.legal-page__block ul + p {
+    margin-top: 14px;
+}
+
+.legal-page__block ul {
+    margin: 0;
+    padding-left: 21px;
+}
+
+.legal-page__block li + li {
+    margin-top: 8px;
+}
+
+.legal-page__faq-item {
+    background: #fff;
+    border: 1px solid #e7edf5;
+    border-radius: 8px;
+    padding: 28px 30px;
+    box-shadow: 0 14px 36px rgba(12, 25, 54, 0.05);
+}
+
+.legal-page__faq-item + .legal-page__faq-item {
+    margin-top: 18px;
+}
+
+.legal-page__faq-item h4 {
+    color: var(--techguru-black);
+    font-size: 22px;
+    line-height: 1.35;
+    margin-bottom: 10px;
+}
+
+.legal-page__faq-item p {
+    color: var(--techguru-gray);
+    line-height: 1.8;
+    margin: 0;
+}
+
+.legal-page__aside {
+    padding: 30px;
+    position: sticky;
+    top: 110px;
+}
+
+.legal-page__aside h4 {
+    color: var(--techguru-black);
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+.legal-page__aside-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.legal-page__aside-list li + li {
+    margin-top: 16px;
+}
+
+.legal-page__aside-label {
+    display: block;
+    color: var(--techguru-gray);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.legal-page__aside a,
+.legal-page__aside strong {
+    color: var(--techguru-black);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.legal-page__aside a:hover {
+    color: var(--techguru-base);
+}
+
+.legal-page__quick-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 26px;
+}
+
+.legal-page__quick-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+    padding: 8px 14px;
+    border: 1px solid #e7edf5;
+    border-radius: 6px;
+    color: var(--techguru-black);
+    font-weight: 700;
+}
+
+.legal-page__quick-links a:hover {
+    color: #fff;
+    border-color: var(--techguru-base);
+    background: var(--techguru-base);
+}
+
+.legal-page__contact-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 26px;
+}
+
+.legal-page__card {
+    padding: 26px;
+}
+
+.legal-page__card span {
+    display: block;
+    color: var(--techguru-base);
+    font-size: 28px;
+    margin-bottom: 14px;
+}
+
+.legal-page__card h4 {
+    color: var(--techguru-black);
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.legal-page__card p,
+.legal-page__card a {
+    color: var(--techguru-gray);
+    line-height: 1.7;
+}
+
+.legal-page__form-card {
+    background: #fff;
+    border: 1px solid #e7edf5;
+    border-radius: 8px;
+    padding: 38px;
+    box-shadow: 0 18px 50px rgba(12, 25, 54, 0.06);
+}
+
+.legal-page__form-card .contact-one__input-box {
+    margin-bottom: 18px;
+}
+
+@media (max-width: 991px) {
+    .legal-page__section {
+        padding: 90px 0;
+    }
+
+    .legal-page__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .legal-page__aside {
+        position: static;
+    }
+
+    .legal-page__contact-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .legal-page__intro h3 {
+        font-size: 32px;
+    }
+
+    .legal-page__content,
+    .legal-page__form-card {
+        padding: 28px 22px;
+    }
+}

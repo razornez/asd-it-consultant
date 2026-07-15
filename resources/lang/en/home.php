@@ -3,7 +3,7 @@
 return [
     'title' => 'Anugrah Digital Solutions, Inc.',
     'meta_description' => 'Professional IT consultant based in Bandung, Indonesia. We build reliable, secure, results-driven software, web & mobile apps, ERP systems, hospital & school information systems, and SEO solutions to grow your business.',
-    'address' => 'Bandung, West Java, Indonesia 40379',
+    'address' => 'D16 Pondok Sabilulungan, Jl. Banjaran, Bandung, West Java, Indonesia 40379',
     'social' => [
         'linkedin' => 'https://www.linkedin.com/company/pt-anugrah-solusi-digital/',
     ],
@@ -193,8 +193,9 @@ return [
         'address_title' => 'Location',
         'email_title' => 'Email Us',
         'phone_title' => 'Contact',
-        'address_value' => 'D16 Pondok Sabilulungan, Banjaran St., Bandung, Indonesia',
+        'address_value' => 'D16 Pondok Sabilulungan, Jl. Banjaran, Bandung, West Java, Indonesia 40379',
         'email_value' => 'cs@anugrahdigital.co.id',
+        'wa_value' => '6285889963822',
         'phone_value' => '+62 858 8996 3822',
     ],
     'testimonial' => [
@@ -229,7 +230,7 @@ return [
     'get_in_touch' => 'Get In Touch',
 
     'location_title' => 'Location',
-    'location_address' => 'D16 Pondok Sabilulungan, Banjaran St., Bandung, Indonesia',
+    'location_address' => 'D16 Pondok Sabilulungan, Jl. Banjaran, Bandung, West Java, Indonesia 40379',
 
     'working_time_title' => 'Working Time',
     'working_time' => 'Sunday - Monday (Fri - Closed) <br> 10:00 AM - 5:00 PM',
@@ -250,6 +251,7 @@ return [
     'support' => [
         'terms' => 'Terms & Condition',
         'faqs' => 'FAQs',
+        'refund' => 'Refund Policy',
         'contact' => 'Contact Us',
         'not_found' => '404 Page',
         'live_chat' => 'Live Chat',

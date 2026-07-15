@@ -3,7 +3,7 @@
 return [
     'title' => 'PT. Anugrah Solusi Digital',
     'meta_description' => 'Konsultan IT profesional di Bandung. Kami membangun software, aplikasi web & mobile, sistem ERP, SIM Rumah Sakit & Sekolah, serta layanan SEO yang andal, aman, dan berorientasi hasil untuk pertumbuhan bisnis Anda.',
-    'address' => 'Bandung, Jawa Barat, Indonesia 40379',
+    'address' => 'D16 Pondok Sabilulungan, Jl. Banjaran, Bandung, Jawa Barat, Indonesia 40379',
     'social' => [
         'linkedin' => 'https://www.linkedin.com/company/pt-anugrah-solusi-digital/',
     ],
@@ -198,7 +198,7 @@ return [
         'address_title' => 'Alamat',
         'email_title' => 'Email Kami',
         'phone_title' => 'Kontak',
-        'address_value' => 'D16 Pondok Sabilulungan, Banjaran St., Bandung, Indonesia',
+        'address_value' => 'D16 Pondok Sabilulungan, Jl. Banjaran, Bandung, Jawa Barat, Indonesia 40379',
         'email_value' => 'cs@anugrahdigital.co.id',
         'wa_value' => '6285889963822',
         'phone_value' => '+62 858 8996 3822',
@@ -234,7 +234,7 @@ return [
     'tagline' => 'Kami adalah konsultan IT kreatif terbaik untuk membantu brand anda tumbuh',
     'get_in_touch' => 'Hubungi Kami',
     'location_title' => 'Lokasi',
-    'location_address' => 'D16 Pondok Sabilulungan, Banjaran St., Bandung, Indonesia',
+    'location_address' => 'D16 Pondok Sabilulungan, Jl. Banjaran, Bandung, Jawa Barat, Indonesia 40379',
     'working_time_title' => 'Jam Kerja',
     'working_time' => 'Senin - Minggu <br> 08:00 - 21:00',
     'contact_title' => 'Kontak Kami',
@@ -252,6 +252,7 @@ return [
     'support' => [
         'terms' => 'Syarat & Ketentuan',
         'faqs' => 'FAQs',
+        'refund' => 'Refund Policy',
         'contact' => 'Kontak Kami',
         'not_found' => 'Halaman 404',
         'live_chat' => 'Live Chat',
